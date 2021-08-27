@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book It | Home</title>
+    <link rel="icon" href="assets/logo.svg">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- font style link -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Mulish:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&family=Zeyada&display=swap" rel="stylesheet">
+
+    <!-- owl carousle -->
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.theme.default.min.css">
+
+    <script src="app.js" defer></script>
+</head>
+<body class="bg-brand-blue-bg">
+    <header class="fixed w-full top-0 z-50">
+        <!-- Mobile -->
+        <div class="h-0 overflow-hidden  w-full px-5  text-sm font-medium uppercase transition-height ease-in-out bg-brand-blue-bg mobileMenu font-montserrat text-brand-black">
+            <div class="py-14 space-y-5">
+                <a class="block text-center transition ease-in-out hover:text-brand-red" href="about.html">about</a>
+            <a class="block text-center transition ease-in-out hover:text-brand-red" href="services.html">services</a>
+            <a class="block text-center transition ease-in-out hover:text-brand-red" href="forClients1.html">for clients</a>
+            <a class="block text-center transition ease-in-out hover:text-brand-red" href="about.html">FAQ</a>
+            <a class="block text-center transition ease-in-out hover:text-brand-red" href="academy.html">Academy</a>
+            <div class="text-center">
+                <a class="text-brand-red border-2 border-brand-red rounded-xl py-2.5 px-3 hover:bg-brand-red/10 transition inline-block ease-in-out" href="#">carrier setup</a>
+            </div>
+            </div>
+        </div>
+
+
+        <!-- Desktop -->
+        <div class="nav  items-center justify-between lg:justify-start  w-full px-5 space-x-5 text-sm font-medium uppercase transition ease-in flex h-20 lg:h-28 md:pl-16 lg:pl-36  font-montserrat text-brand-black">
+            <a href="index.html"><img class="w-12" src="assets/logo.svg" alt=""></a>
+            
+            <div class="hidden lg:flex items-center lg:space-x-7">
+                <a class="transition ease-in-out hover:text-brand-red" href="about.html">about</a>
+                <a class="transition ease-in-out hover:text-brand-red" href="services.html">services</a>
+                <a class="transition ease-in-out hover:text-brand-red" href="forClients1.html">for clients</a>
+                <a class="transition ease-in-out hover:text-brand-red" href="about.html">FAQ</a>
+                <a class="transition ease-in-out hover:text-brand-red" href="academy.html">Academy</a>
+                <a class="text-brand-red border-2 border-brand-red rounded-xl py-2.5 px-3 hover:bg-brand-red/10 transition ease-in-out" href="form1.html">carrier setup</a>
+            </div>
+
+            <button class="text-white menuBtn lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main class="relative transition-spacing ease-in-out">
+        <!-- hero -->
+        <section class="lg:mt-32">
+            <img class="w-full lg:hidden" src="assets/hero-mobile.svg" alt="">
+            <div class="px-5 -mt-24 sm:-mt-44 md:-mt-56 md:px-20 2xl:px-52 lg:mt-0">
+                <h1 class="text-3xl font-bold md:text-6xl font-montserrat text-brand-black lg:pt-36">Independent <br> Truck <br> Dispatching</h1>
+                <p class="py-10 text-base capitalize lg:max-w-md md:text-xl text-brand-black font-roboto">Our primary goal is to prepare professional staff members to assume leadership positions in logistics companies, private dispatch agencies, and voluntary organizations.</p>
+                <!-- hero select -->
+                <div class="relative inline-block">
+                    <div class="relative">
+                        <select class="relative z-10 w-64 h-16 pl-10 text-center text-white border-none rounded-lg bg-brand-red font-montserrat focus:outline-none appearance-none" name="" id="">
+                            <option class="bg-white text-brand-red" value="">I Am A...</option>
+                            <option class="bg-white text-brand-red" value="">Broker</option>
+                            <option class="bg-white text-brand-red" value="">Carrier</option>
+                            <option class="bg-white text-brand-red" value="">Owner Operator</option>
+                        </select>
+                        <div class="absolute inset-y-0 z-30 flex items-center px-2 text-white pointer-events-none right-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="absolute z-0 w-64 h-16 border-2 rounded-lg top-2.5 left-2.5 bg-none border-brand-red"></div>
+                </div>
+            </div>
+            <img class="absolute right-0 hidden w-1/2 lg:block -top-16" src="assets/hero-img.png" alt="">
+        </section>
+
+        <!-- what we do -->
+        <section class="px-4 mx-auto max-w-7xl 2xl:w-1376 pt-40 lg:pt-[590px]">
+            <div class="w-full md:flex md:space-x-10 lg:space-x-20 justiy-between">
+
+                <div class="w-full md:w-1/2 2xl:w-1/3 text-brand-black">
+                    <h1 class="pb-6 text-2xl font-bold lg:text-3xl">What We Do</h1>
+                    <p>Our experienced truck dispatchers set you up directly with the Shippers, Brokers. We fill out all the necessary paperwork. We work directly with the best Shippers and Brokers. <br><br> We keep you working and you do not leave your trucks stuck for days like some of the other truck dispatch services.</p>
+                </div>
+
+                <div class="w-full pt-10 space-y-12 md:w-1/2 2xl:w-2/3 2xl:flex 2xl:space-x-20 2xl:space-y-0 md:pt-0">
+                    <div class="w-full space-y-12 2xl:w-1/2 2xl:mt-14">
+                        <div class="flex items-start space-x-5">
+                            <img class="w-16 lg:w-24" src="assets/dispatching.svg" alt="">
+                            <div class="font-roboto">
+                                <h1 class="text-xl font-bold text-brand-black">Dispatching</h1>
+                                <p class="text-base text-gray-500 lg:text-lg">Our office works 24/7 to proactively provide honest updates on the behalf of carriers</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-5">
+                            <img class="w-16 lg:w-24" src="assets/paprework.svg" alt="">
+                            <div class="font-roboto">
+                                <h1 class="text-xl font-bold text-brand-black">Paperwork</h1>
+                                <p class="text-base text-gray-500 lg:text-lg">We manage all paperworks during delivery of loads, help with setting up with factoring companies.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="w-full space-y-12 2xl:w-1/2">
+                        <div class="flex items-start space-x-5">
+                            <img class="w-16 lg:w-24" src="assets/accounting.svg" alt="">
+                            <div class="font-roboto">
+                                <h1 class="text-xl font-bold text-brand-black">Accounting</h1>
+                                <p class="text-base text-gray-500 lg:text-lg">We provide  accounting services, furthermore  all invoices and payrolls are complited.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-5">
+                            <img class="w-16 lg:w-24" src="assets/eld-support.svg" alt="">
+                            <div class="font-roboto">
+                                <h1 class="text-xl font-bold text-brand-black">ELD Support</h1>
+                                <p class="text-base text-gray-500 lg:text-lg">non sit hendrerit dui. Amet, lobortis sed tristique quis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div>
+            <!-- let's talk sticky button -->
+            <button class="letsTalk sticky top-80 z-40 float-right flex items-center justify-end space-x-2.5 border-4 rounded-full border-brand-red text-brand-red lg:transform -rotate-90 lg:py-5 lg:px-8 p-4 bg-white hover:bg-brand-red/10 transition ease-in-out">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.0037 6.23522e-07C9.09529 -0.000641851 7.21955 0.495228 5.56078 1.43889C3.902 2.38255 2.51728 3.74153 1.54265 5.3823C0.568027 7.02307 0.0370419 8.88918 0.00186884 10.7973C-0.0333042 12.7053 0.428545 14.5898 1.34204 16.2653L0.0403702 20.8303C-0.00543146 20.9906 -0.00665168 21.1604 0.0368411 21.3213C0.0803338 21.4823 0.166893 21.6283 0.287201 21.7437C0.40751 21.8591 0.557014 21.9395 0.719621 21.9763C0.882229 22.013 1.05178 22.0048 1.21004 21.9523L5.49637 20.5242C6.95728 21.3684 8.59281 21.8652 10.2764 21.9762C11.9601 22.0872 13.6467 21.8094 15.2058 21.1642C16.7649 20.5191 18.1546 19.524 19.2676 18.2558C20.3806 16.9877 21.1869 15.4805 21.6242 13.8508C22.0615 12.2212 22.118 10.5128 21.7894 8.85781C21.4608 7.20283 20.7559 5.64562 19.7292 4.30665C18.7025 2.96768 17.3816 1.88284 15.8686 1.13606C14.3555 0.389274 12.691 0.000564574 11.0037 6.23522e-07ZM7.33704 9.16667C7.33704 8.92355 7.43361 8.69039 7.60552 8.51849C7.77743 8.34658 8.01059 8.25 8.2537 8.25H13.7537C13.9968 8.25 14.23 8.34658 14.4019 8.51849C14.5738 8.69039 14.6704 8.92355 14.6704 9.16667C14.6704 9.40978 14.5738 9.64294 14.4019 9.81485C14.23 9.98676 13.9968 10.0833 13.7537 10.0833H8.2537C8.01059 10.0833 7.77743 9.98676 7.60552 9.81485C7.43361 9.64294 7.33704 9.40978 7.33704 9.16667ZM8.2537 11.9167H11.9204C12.1635 11.9167 12.3966 12.0132 12.5686 12.1852C12.7405 12.3571 12.837 12.5902 12.837 12.8333C12.837 13.0764 12.7405 13.3096 12.5686 13.4815C12.3966 13.6534 12.1635 13.75 11.9204 13.75H8.2537C8.01059 13.75 7.77743 13.6534 7.60552 13.4815C7.43361 13.3096 7.33704 13.0764 7.33704 12.8333C7.33704 12.5902 7.43361 12.3571 7.60552 12.1852C7.77743 12.0132 8.01059 11.9167 8.2537 11.9167Z" fill="url(#paint0_linear)"/>
+                    <defs>
+                    <linearGradient id="paint0_linear" x1="-2.66065" y1="6.13083e-07" x2="23.8649" y2="1.67809" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FF0066"/>
+                    <stop offset="1" stop-color="#FF1585"/>
+                    </linearGradient>
+                    </defs>
+                </svg>
+                <p class="hidden font-semibold font-montserrat lg:block">Let's Talk</p>
+            </button>
+
+            <!-- more about us -->
+            <section class="px-4 mx-auto py-28 max-w-7xl 2xl:w-1376 lg:py-96">
+                <div class="relative items-center justify-end w-full px-4 lg:flex linear-gradient-bg lg:h-96 rounded-2xl">
+
+                    <img class="absolute z-10 hidden max-w-lg lg:block -top-48 -left-16 2xl:-left-36" src="assets/msg-box-text.svg" alt="">
+                    <img class="absolute z-10 max-w-xs px-4 sm:max-w-md lg:hidden -top-24 sm:-top-32" src="assets/msg-box-text.svg" alt="">
+
+                    <!-- img of laptop -->
+                    <div class="relative z-10 max-w-xl pt-20 mx-auto lg:absolute xl:max-w-4xl lg:-bottom-36 xl:-bottom-56 lg:-left-14">
+                        <button class="modal-open focus:outline-none">
+                            <img class="w-full" src="assets/Device-Macbook.svg" alt="">
+                        </button>
+                    </div>
+
+                    <!-- youtube video on pop up -->
+                    <div class="fixed top-0 left-0 z-50 flex items-center justify-center w-full h-full transition ease-in-out opacity-0 pointer-events-none modal">
+                        <div class="absolute w-full h-full bg-gray-900 opacity-60 modal-overlay"></div>
+
+                        <div class="z-50 mx-auto overflow-y-auto rounded shadow-lg modal-container">
+
+                            <div class="absolute top-0 right-0 z-50 flex flex-col items-center mt-4 mr-4 text-sm text-white cursor-pointer modal-close">
+                                <svg class="text-white fill-current" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+                                    <path d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z"></path>
+                                </svg>
+                                <span class="text-sm">(Esc)</span>
+                            </div>
+
+                            <div class="px-6 py-4 modal-content">
+
+                                <iframe  width="1024" height="480" src="https://www.youtube.com/embed/Z-jyQyh143A" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col items-center justify-center lg:pr-24">
+                        <h1 class="text-3xl font-bold text-white font-montserrat">More About Us</h1>
+                        <p class="pt-8 text-lg text-white font-roboto pb-14">To find out more videos visit our YouTube <br> channel or follow us on socials</p>
+                        <a class="block py-6 text-lg font-medium text-center text-white rounded-lg bg-brand-red font-montserrat w-72" href="#">More On YouTube</a>
+                    </div>
+
+                    <!-- social icons -->
+                    <div class="relative right-0 flex items-center w-56 px-10 py-8 mx-auto space-x-5 bg-white shadow lg:absolute rounded-3xl 2xl:-right-10 -bottom-10">
+                        <a class="block" href="#">
+                            <svg aria-hidden="true" class="w-5 h-5 transition ease-in-out text-brand-dark-blue hover:text-brand-red" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                            </svg>
+                        </a>
+                        <a class="block" href="#">
+                            <svg aria-hidden="true" class="w-5 h-5 transition ease-in-out text-brand-dark-blue hover:text-brand-red" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor" d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"></path>
+                            </svg>
+                        </a>
+                        <a class="block" href="#">
+                            <svg aria-hidden="true" class="w-5 h-5 transition ease-in-out text-brand-dark-blue hover:text-brand-red" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+                            </svg>
+                        </a>
+                        <a class="block" href="#">
+                            <svg aria-hidden="true" class="w-5 h-5 transition ease-in-out text-brand-dark-blue hover:text-brand-red" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor" d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- what we specialize in -->
+            <section class="px-4 pb-12 mx-auto max-w-7xl 2xl:w-1376 lg:pb-80">
+                <div class="items-center w-full xl:flex">
+
+                    <div class="flex flex-col w-full xl:w-1/5">
+                        <h1 class="text-3xl font-bold capitalize font-montserrat text-brand-black">what we <br> specialize in</h1>
+                        <p class="pt-2 text-lg text-gray-500 xl:pt-6 font-roboto">We help you operate with the given types of trucks</p>
+                    </div>
+
+                    <div class="flex flex-wrap items-center w-full mt-8 border-2 xl:w-4/5 border-brand-light-blue rounded-2xl xl:mt-0">
+                        <div class="flex flex-col items-center justify-center w-1/2 space-y-5 border-b-2 border-r-2 md:border-b-0 md:w-1/4 h-72 border-brand-light-blue">
+                            <img class="mx-auto" src="assets/dry-van.svg" alt="">
+                            <p class="text-xl text-center uppercase font-roboto text-brand-black">dry van</p>
+                        </div>
+                        <div class="relative flex flex-col items-center justify-center w-1/2 space-y-5 border-b-2 md:border-b-0 md:border-r-2 md:w-1/4 h-72 border-brand-light-blue">
+                            <img class="mx-auto" src="assets/reefer.svg" alt="">
+                            <p class="text-xl text-center uppercase font-roboto text-brand-black">reefer</p>
+                            <svg class="absolute top-0 w-8 h-10 left-4" viewBox="0 0 32 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.6613 25.8228V18.9837C11.6613 18.6313 11.5213 18.2932 11.2721 18.044C11.0228 17.7948 10.6848 17.6548 10.3324 17.6548C9.9799 17.6548 9.64188 17.7948 9.39265 18.044C9.14343 18.2932 9.00341 18.6313 9.00341 18.9837V25.8228C7.93273 26.142 7.01271 26.836 6.41161 27.7778C5.8105 28.7195 5.56847 29.8462 5.72977 30.9518C5.89106 32.0573 6.44492 33.0679 7.29004 33.7987C8.13517 34.5294 9.2151 34.9316 10.3324 34.9316C11.4496 34.9316 12.5296 34.5294 13.3747 33.7987C14.2198 33.0679 14.7737 32.0573 14.935 30.9518C15.0963 29.8462 14.8542 28.7195 14.2531 27.7778C13.652 26.836 12.732 26.142 11.6613 25.8228ZM10.3324 32.2732C9.9381 32.2732 9.55269 32.1563 9.22488 31.9373C8.89706 31.7182 8.64156 31.4069 8.49068 31.0426C8.3398 30.6784 8.30032 30.2776 8.37724 29.8909C8.45416 29.5042 8.64401 29.149 8.9228 28.8702C9.20158 28.5914 9.55678 28.4016 9.94346 28.3247C10.3302 28.2478 10.731 28.2872 11.0952 28.4381C11.4595 28.589 11.7708 28.8445 11.9898 29.1723C12.2089 29.5001 12.3258 29.8855 12.3258 30.2798C12.3252 30.8083 12.115 31.315 11.7413 31.6887C11.3676 32.0624 10.8609 32.2727 10.3324 32.2732ZM31.0816 11.9602L27.7655 13.0377L29.8149 15.8584C29.9175 15.9995 29.9913 16.1596 30.032 16.3293C30.0728 16.499 30.0797 16.675 30.0524 16.8474C30.0251 17.0198 29.9641 17.1851 29.873 17.3339C29.7818 17.4827 29.6622 17.6121 29.521 17.7147C29.3798 17.8172 29.2198 17.891 29.0501 17.9318C28.8804 17.9725 28.7043 17.9794 28.532 17.9521C28.3596 17.9248 28.1943 17.8639 28.0455 17.7727C27.8967 17.6815 27.7673 17.5619 27.6647 17.4207L25.6153 14.5998L23.5659 17.4205C23.3575 17.7024 23.0462 17.8906 22.6997 17.944C22.3533 17.9974 21.9997 17.9117 21.7161 17.7057C21.4325 17.4996 21.2418 17.1899 21.1855 16.8439C21.1293 16.4979 21.212 16.1437 21.4156 15.8584L23.465 13.0377L20.149 11.9601C19.983 11.9061 19.8293 11.82 19.6966 11.7067C19.5639 11.5933 19.4548 11.4549 19.3756 11.2994C19.2963 11.1439 19.2485 10.9743 19.2348 10.8004C19.2211 10.6264 19.2419 10.4514 19.2958 10.2854C19.3497 10.1194 19.4358 9.9657 19.5492 9.833C19.6625 9.70029 19.8009 9.59121 19.9564 9.51199C20.1119 9.43276 20.2815 9.38494 20.4555 9.37125C20.6295 9.35757 20.8045 9.37829 20.9704 9.43222L24.2863 10.5098V7.02317C24.2863 6.67071 24.4264 6.33269 24.6756 6.08346C24.9248 5.83423 25.2628 5.69422 25.6153 5.69422C25.9677 5.69422 26.3058 5.83423 26.555 6.08346C26.8042 6.33269 26.9442 6.67071 26.9442 7.02317V10.5098L30.2601 9.43239C30.4261 9.37845 30.6011 9.35774 30.7751 9.37142C30.9491 9.38511 31.1187 9.43293 31.2742 9.51215C31.4297 9.59138 31.568 9.70046 31.6814 9.83316C31.7947 9.96587 31.8808 10.1196 31.9348 10.2856C31.9887 10.4516 32.0094 10.6265 31.9958 10.8005C31.9821 10.9745 31.9342 11.1441 31.855 11.2996C31.7758 11.4551 31.6667 11.5935 31.534 11.7068C31.4013 11.8202 31.2476 11.9063 31.0816 11.9602ZM16.9771 22.85V7.02317C16.9771 5.26087 16.277 3.57075 15.0309 2.32462C13.7848 1.07849 12.0947 0.378418 10.3324 0.378418C8.57007 0.378418 6.87995 1.07849 5.63381 2.32462C4.38768 3.57075 3.68761 5.26087 3.68761 7.02317V22.85C2.18304 24.1957 1.12254 25.9665 0.646437 27.9282C0.170333 29.8898 0.30107 31.9498 1.02135 33.8355C1.74163 35.7212 3.01749 37.3438 4.68012 38.4885C6.34275 39.6332 8.31377 40.2462 10.3324 40.2462C12.351 40.2462 14.322 39.6332 15.9846 38.4885C17.6472 37.3438 18.9231 35.7212 19.6434 33.8355C20.3637 31.9498 20.4944 29.8898 20.0183 27.9282C19.5422 25.9665 18.4817 24.1957 16.9771 22.85ZM10.3324 37.589C8.81633 37.589 7.3378 37.1177 6.10153 36.2402C4.86526 35.3627 3.93243 34.1225 3.43222 32.6913C2.93201 31.2602 2.88918 29.7089 3.30965 28.2524C3.73012 26.7958 4.59309 25.506 5.77905 24.5617C5.95398 24.4391 6.09679 24.2761 6.19539 24.0866C6.294 23.8972 6.34549 23.6867 6.34551 23.4731V7.02317C6.34551 5.96579 6.76555 4.95172 7.51323 4.20404C8.26091 3.45636 9.27498 3.03632 10.3324 3.03632C11.3897 3.03632 12.4038 3.45636 13.1515 4.20404C13.8992 4.95172 14.3192 5.96579 14.3192 7.02317V23.4731C14.3192 23.6839 14.3695 23.8916 14.4657 24.0792C14.562 24.2667 14.7015 24.4286 14.8727 24.5515C16.0619 25.4941 16.9282 26.7834 17.3515 28.2406C17.7748 29.6978 17.7341 31.2506 17.235 32.6836C16.736 34.1166 15.8033 35.3587 14.5664 36.2377C13.3296 37.1167 11.8498 37.589 10.3324 37.589Z" fill="#A7D6FF"/>
+                            </svg>
+                        </div>
+                        <div class="flex flex-col items-center justify-center w-1/2 space-y-5 border-r-2 md:w-1/4 h-72 border-brand-light-blue">
+                            <img class="mx-auto" src="assets/flatbet.svg" alt="">
+                            <p class="text-xl text-center uppercase font-roboto text-brand-black">flatbet</p>
+                        </div>
+                        <div class="flex flex-col items-center justify-center w-1/2 pt-3 -mb-20 space-y-5 md:w-1/4 h-72">
+                            <img class="mx-auto" src="assets/power-only.svg" alt="">
+                            <p class="text-xl text-center uppercase font-roboto text-brand-black">power only</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- why us -->
+            <section class="relative px-4 mx-auto -mb-8 max-w-7xl 2xl:w-1376">
+                <div class="items-center w-full px-4 py-12 md:flex md:px-10 lg:px-20 lg:py-16 md:space-x-12 lg:space-x-24 linear-gradient-bg rounded-xl">
+
+                    <div class="w-full md:w-1/3">
+                        <h1 class="text-3xl font-bold text-white font-montserrat">Why Us</h1>
+                        <p class="text-lg text-white capitalize pt-7">we understand and are fully committed to solving real-time challenges experienced by trucking businesses worldwide by the provision of high quality, individualized modern and innovative services with professionalism, dignity, and respect.</p>
+                    </div>
+
+                    <div class="flex flex-wrap items-center justify-center w-full mt-8 md:w-2/3 md:mt-0">
+
+                        <div class="flex flex-col items-center justify-center w-32 h-32 m-2 space-y-2 border-4 border-white shadow-xl sm:m-4 lg:w-40 lg:h-40 border-opacity-20 rounded-2xl bg-brand-darker-blue">
+                            <svg class="w-11" viewBox="0 0 44 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.7732 20.828L21.999 20.8281L22.5042 20.8298C26.3654 20.8552 35.1892 21.2453 35.1892 27.226C35.1892 33.1675 26.673 33.555 22.5644 33.5802L21.0422 33.5802C17.1808 33.5548 8.3552 33.1653 8.3552 27.192C8.3552 21.243 17.1808 20.8551 21.0422 20.8298L21.5474 20.8281C21.6257 20.828 21.7011 20.828 21.7732 20.828ZM21.7732 23.828C17.0212 23.828 11.3552 24.412 11.3552 27.192C11.3552 29.9091 16.683 30.5443 21.3389 30.5803L21.7732 30.582C26.5252 30.582 32.1892 30 32.1892 27.226C32.1892 24.418 26.5252 23.828 21.7732 23.828ZM37.6804 20.0164C42.5264 20.7424 43.5444 23.0184 43.5444 24.8004C43.5444 25.8884 43.1164 27.8744 40.2564 28.9644C40.0804 29.0304 39.9004 29.0624 39.7224 29.0624C39.1184 29.0624 38.5484 28.6944 38.3204 28.0964C38.0244 27.3224 38.4144 26.4544 39.1884 26.1604C40.5444 25.6444 40.5444 25.0744 40.5444 24.8004C40.5444 23.9244 39.4304 23.3124 37.2344 22.9844C36.4164 22.8604 35.8504 22.0984 35.9724 21.2764C36.0944 20.4564 36.8544 19.9104 37.6804 20.0164ZM7.572 21.2764C7.694 22.0984 7.128 22.8604 6.31 22.9844C4.114 23.3124 3 23.9244 3 24.8004C3 25.0744 3 25.6424 4.358 26.1604C5.132 26.4544 5.522 27.3224 5.226 28.0964C4.998 28.6944 4.428 29.0624 3.824 29.0624C3.646 29.0624 3.466 29.0304 3.29 28.9644C0.428 27.8724 0 25.8864 0 24.8004C0 23.0204 1.018 20.7424 5.866 20.0164C6.692 19.9124 7.448 20.4564 7.572 21.2764ZM21.7732 0C26.8132 0 30.9112 4.1 30.9112 9.138C30.9112 14.176 26.8132 18.276 21.7732 18.276H21.7192C19.2792 18.268 16.9932 17.312 15.2812 15.584C13.5652 13.858 12.6272 11.566 12.6371 9.132C12.6371 4.1 16.7352 0 21.7732 0ZM21.7732 3C18.3892 3 15.6372 5.754 15.6372 9.138C15.6312 10.778 16.2592 12.312 17.4092 13.47C18.5592 14.628 20.0912 15.27 21.7232 15.276L21.7732 16.776V15.276C25.1572 15.276 27.9112 12.524 27.9112 9.138C27.9112 5.754 25.1572 3 21.7732 3ZM34.1512 1.959C37.6672 2.537 40.2212 5.545 40.2212 9.111C40.2132 12.701 37.5312 15.781 33.9812 16.279C33.9112 16.289 33.8412 16.293 33.7732 16.293C33.0372 16.293 32.3952 15.751 32.2892 15.001C32.1752 14.179 32.7452 13.421 33.5672 13.307C35.6472 13.015 37.2172 11.211 37.2212 9.107C37.2212 7.021 35.7252 5.257 33.6632 4.919C32.8472 4.785 32.2932 4.013 32.4272 3.195C32.5632 2.377 33.3292 1.829 34.1512 1.959ZM11.1192 3.195C11.2532 4.013 10.6992 4.785 9.8832 4.919C7.8212 5.257 6.3252 7.021 6.3252 9.111C6.3292 11.211 7.8992 13.017 9.9772 13.307C10.7992 13.421 11.3692 14.179 11.2552 15.001C11.1492 15.751 10.5072 16.293 9.7712 16.293C9.7032 16.293 9.6332 16.289 9.5632 16.279C6.0132 15.781 3.3332 12.701 3.3252 9.115C3.3252 5.545 5.8792 2.537 9.3952 1.959C10.2372 1.827 10.9832 2.381 11.1192 3.195Z" fill="white"/>
+                            </svg>
+                            <p class="text-sm text-center text-white font-roboto">Professional Team</p>
+                        </div>
+
+                        <div class="flex flex-col items-center justify-center w-32 h-32 m-2 space-y-2 border-4 border-white shadow-xl sm:m-4 lg:w-40 lg:h-40 border-opacity-20 rounded-2xl bg-brand-darker-blue">
+                            <svg class="w-11" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M34.25 10.7235C34.25 7.76155 33.2967 5.26539 31.6145 3.508C29.9314 1.74965 27.5367 0.75 24.6925 0.75H10.3075C7.46333 0.75 5.06865 1.74965 3.38554 3.508C1.70333 5.26539 0.75 7.76155 0.75 10.7235V24.2765C0.75 27.2384 1.70333 29.7346 3.38554 31.492C5.06865 33.2504 7.46333 34.25 10.3075 34.25H24.6925C27.5367 34.25 29.9314 33.2504 31.6145 31.492C33.2967 29.7346 34.25 27.2384 34.25 24.2765V10.7235ZM10.3075 3.55233H24.6925C26.7614 3.55233 28.4435 4.25846 29.6094 5.49346C30.7766 6.72993 31.4477 8.51944 31.4477 10.7235V24.2765C31.4477 26.4806 30.7766 28.2701 29.6094 29.5065C28.4435 30.7415 26.7614 31.4477 24.6925 31.4477H10.3075C8.23942 31.4477 6.55725 30.7416 5.3912 29.5065C4.22377 28.27 3.55233 26.4805 3.55233 24.2765V10.7235C3.55233 8.51948 4.22377 6.72996 5.3912 5.49348C6.55725 4.25845 8.23942 3.55233 10.3075 3.55233ZM11.7963 14.741C11.7963 13.9675 11.1687 13.3399 10.3952 13.3399C9.62166 13.3399 8.99401 13.9675 8.99401 14.741V25.2703C8.99401 26.0439 9.62166 26.6715 10.3952 26.6715C11.1687 26.6715 11.7963 26.0439 11.7963 25.2703V14.741ZM18.9596 9.70049C18.9596 8.92698 18.332 8.29933 17.5585 8.29933C16.785 8.29933 16.1573 8.92698 16.1573 9.70049V25.2688C16.1573 26.0423 16.785 26.67 17.5585 26.67C18.332 26.67 18.9596 26.0423 18.9596 25.2688V9.70049ZM26.0052 20.305C26.0052 19.5315 25.3776 18.9038 24.6041 18.9038C23.8305 18.9038 23.2029 19.5315 23.2029 20.305V25.2688C23.2029 26.0423 23.8305 26.67 24.6041 26.67C25.3776 26.67 26.0052 26.0423 26.0052 25.2688V20.305Z" fill="white" stroke="white" stroke-width="0.5"/>
+                                </svg>
+                            <p class="text-sm text-center text-white font-roboto">Data Management</p>
+                        </div>
+
+                        <div class="flex flex-col items-center justify-center w-32 h-32 m-2 space-y-2 border-4 border-white shadow-xl sm:m-4 lg:w-40 lg:h-40 border-opacity-20 rounded-2xl bg-brand-darker-blue">
+                            <svg class="w-11" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.4597 16.0944C15.7839 15.3406 14.9234 14.5611 14.9234 13.3472C14.9234 11.9544 16.1139 10.9833 18.1061 10.9833C19.7586 10.9833 20.5922 11.657 20.9063 12.7234C21.0575 13.2367 21.4747 13.6667 22.0097 13.6667H22.6199C23.1869 13.6667 23.6496 13.1919 23.5311 12.6375C23.1984 11.0815 22.2319 9.72533 20.6035 9.04479C20.1848 8.86981 19.8743 8.48225 19.8743 8.02845V7C19.8743 6.44772 19.4265 6 18.8743 6H17.3379C16.7856 6 16.3379 6.44772 16.3379 7V7.96751C16.3379 8.43178 16.015 8.82728 15.578 8.9841C13.6571 9.67346 12.2122 11.1868 12.2122 13.3728C12.2122 16.3244 14.4637 17.7939 17.7525 18.65C20.6994 19.4167 21.2888 20.5411 21.2888 21.7294C21.2888 22.6111 20.7112 24.0167 18.1061 24.0167C16.1852 24.0167 15.1863 23.281 14.7886 22.2272C14.6053 21.7416 14.1947 21.3333 13.6756 21.3333H13.0518C12.4797 21.3333 12.0135 21.8174 12.1454 22.3741C12.5883 24.2428 13.9401 25.4277 15.5748 26.0055C16.0136 26.1606 16.3379 26.5568 16.3379 27.0222V28C16.3379 28.5523 16.7856 29 17.3379 29H18.8743C19.4265 29 19.8743 28.5523 19.8743 28V27.068C19.8743 26.5934 20.2111 26.1921 20.6625 26.0457C22.5769 25.4246 24 24.0284 24 21.7167C24 18.0878 21.1356 16.8483 18.4597 16.0944Z" fill="white"/>
+                                <path d="M18.4597 16.0944C15.7839 15.3406 14.9234 14.5611 14.9234 13.3472C14.9234 11.9544 16.1139 10.9833 18.1061 10.9833C19.7586 10.9833 20.5922 11.657 20.9063 12.7234C21.0575 13.2367 21.4747 13.6667 22.0097 13.6667H22.6199C23.1869 13.6667 23.6496 13.1919 23.5311 12.6375C23.1984 11.0815 22.2319 9.72533 20.6035 9.04479C20.1848 8.86981 19.8743 8.48225 19.8743 8.02845V7C19.8743 6.44772 19.4265 6 18.8743 6H17.3379C16.7856 6 16.3379 6.44772 16.3379 7V7.96751C16.3379 8.43178 16.015 8.82728 15.578 8.9841C13.6571 9.67346 12.2122 11.1868 12.2122 13.3728C12.2122 16.3244 14.4637 17.7939 17.7525 18.65C20.6994 19.4167 21.2888 20.5411 21.2888 21.7294C21.2888 22.6111 20.7112 24.0167 18.1061 24.0167C16.1852 24.0167 15.1863 23.281 14.7886 22.2272C14.6053 21.7416 14.1947 21.3333 13.6756 21.3333H13.0518C12.4797 21.3333 12.0135 21.8174 12.1454 22.3741C12.5883 24.2428 13.9401 25.4277 15.5748 26.0055C16.0136 26.1606 16.3379 26.5568 16.3379 27.0222V28C16.3379 28.5523 16.7856 29 17.3379 29H18.8743C19.4265 29 19.8743 28.5523 19.8743 28V27.068C19.8743 26.5934 20.2111 26.1921 20.6625 26.0457C22.5769 25.4246 24 24.0284 24 21.7167C24 18.0878 21.1356 16.8483 18.4597 16.0944Z" stroke="#40447A"/>
+                                <circle cx="18" cy="18" r="16.5" stroke="white" stroke-width="3"/>
+                            </svg>
+                            <p class="text-sm text-center text-white font-roboto">Average Min $2.5 Per Mile</p>
+                        </div>
+
+                        <div class="flex flex-col items-center justify-center w-32 h-32 m-2 space-y-2 border-4 border-white shadow-xl sm:m-4 lg:w-40 lg:h-40 border-opacity-20 rounded-2xl bg-brand-darker-blue">
+                            <svg class="w-11" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23.1 3.3C22.6624 3.3 22.2427 3.12616 21.9333 2.81673C21.6238 2.50729 21.45 2.08761 21.45 1.65C21.45 1.21239 21.6238 0.792709 21.9333 0.483274C22.2427 0.173839 22.6624 0 23.1 0H29.7C30.1376 0 30.5573 0.173839 30.8667 0.483274C31.1762 0.792709 31.35 1.21239 31.35 1.65V8.25C31.35 8.68761 31.1762 9.10729 30.8667 9.41673C30.5573 9.72616 30.1376 9.9 29.7 9.9C29.2624 9.9 28.8427 9.72616 28.5333 9.41673C28.2238 9.10729 28.05 8.68761 28.05 8.25V5.6331L18.4915 15.1915C18.1821 15.5009 17.7625 15.6746 17.325 15.6746C16.8875 15.6746 16.4679 15.5009 16.1585 15.1915L11.55 10.5831L2.81655 19.3165C2.50536 19.6171 2.08856 19.7834 1.65594 19.7797C1.22331 19.7759 0.809473 19.6024 0.503549 19.2964C0.197626 18.9905 0.0240973 18.5767 0.0203379 18.1441C0.0165785 17.7114 0.182889 17.2946 0.48345 16.9834L10.3835 7.08345C10.6929 6.77412 11.1125 6.60035 11.55 6.60035C11.9875 6.60035 12.4071 6.77412 12.7165 7.08345L17.325 11.6919L25.7169 3.3H23.1ZM3.3 26.4V31.35C3.3 31.7876 3.12616 32.2073 2.81673 32.5167C2.50729 32.8262 2.08761 33 1.65 33C1.21239 33 0.792709 32.8262 0.483274 32.5167C0.173839 32.2073 0 31.7876 0 31.35V26.4C0 25.9624 0.173839 25.5427 0.483274 25.2333C0.792709 24.9238 1.21239 24.75 1.65 24.75C2.08761 24.75 2.50729 24.9238 2.81673 25.2333C3.12616 25.5427 3.3 25.9624 3.3 26.4ZM11.55 19.8C11.55 19.3624 11.3762 18.9427 11.0667 18.6333C10.7573 18.3238 10.3376 18.15 9.9 18.15C9.46239 18.15 9.04271 18.3238 8.73327 18.6333C8.42384 18.9427 8.25 19.3624 8.25 19.8V31.35C8.25 31.7876 8.42384 32.2073 8.73327 32.5167C9.04271 32.8262 9.46239 33 9.9 33C10.3376 33 10.7573 32.8262 11.0667 32.5167C11.3762 32.2073 11.55 31.7876 11.55 31.35V19.8ZM18.15 21.45C18.5876 21.45 19.0073 21.6238 19.3167 21.9333C19.6262 22.2427 19.8 22.6624 19.8 23.1V31.35C19.8 31.7876 19.6262 32.2073 19.3167 32.5167C19.0073 32.8262 18.5876 33 18.15 33C17.7124 33 17.2927 32.8262 16.9833 32.5167C16.6738 32.2073 16.5 31.7876 16.5 31.35V23.1C16.5 22.6624 16.6738 22.2427 16.9833 21.9333C17.2927 21.6238 17.7124 21.45 18.15 21.45ZM28.05 14.85C28.05 14.4124 27.8762 13.9927 27.5667 13.6833C27.2573 13.3738 26.8376 13.2 26.4 13.2C25.9624 13.2 25.5427 13.3738 25.2333 13.6833C24.9238 13.9927 24.75 14.4124 24.75 14.85V31.35C24.75 31.7876 24.9238 32.2073 25.2333 32.5167C25.5427 32.8262 25.9624 33 26.4 33C26.8376 33 27.2573 32.8262 27.5667 32.5167C27.8762 32.2073 28.05 31.7876 28.05 31.35V14.85Z" fill="white"/>
+                            </svg>
+                            <p class="text-sm text-center text-white font-roboto">Up To 8k - 18k Gross</p>
+                        </div>
+
+                        <div class="flex flex-col items-center justify-center w-32 h-32 m-2 space-y-2 border-4 border-white shadow-xl sm:m-4 lg:w-40 lg:h-40 border-opacity-20 rounded-2xl bg-brand-darker-blue">
+                            <svg class="w-11" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.07512 11.1275C9.64767 10.4972 10.5849 9.8999 11.9626 9.8999C13.8634 9.8999 15.0877 11.2067 15.5184 12.6406C15.9358 14.0381 15.6834 15.7673 14.4954 16.9603C14.0833 17.3564 13.6463 17.7256 13.1869 18.0658L13.1209 18.1169C12.6589 18.4733 12.2464 18.7967 11.8834 19.1564C11.4627 19.5788 11.1178 20.0392 10.9182 20.6249H14.4376C14.7658 20.6249 15.0806 20.7553 15.3127 20.9874C15.5447 21.2194 15.6751 21.5342 15.6751 21.8624C15.6751 22.1906 15.5447 22.5054 15.3127 22.7374C15.0806 22.9695 14.7658 23.0999 14.4376 23.0999H9.48762C9.15941 23.0999 8.84465 22.9695 8.61257 22.7374C8.3805 22.5054 8.25012 22.1906 8.25012 21.8624C8.25012 19.8049 9.11472 18.4255 10.1377 17.4058C10.6261 16.9174 11.1574 16.5065 11.6062 16.1584L11.6112 16.1551C12.0831 15.7904 12.4494 15.5066 12.7414 15.2146C13.1902 14.7625 13.347 14.0183 13.1473 13.3501C12.9576 12.7214 12.5368 12.3749 11.9626 12.3749C11.3802 12.3749 11.0799 12.601 10.9066 12.7924C10.8053 12.9042 10.7228 13.0318 10.6624 13.1702V13.1752C10.5613 13.4876 10.3403 13.7471 10.0478 13.8966C9.75543 14.046 9.41562 14.0732 9.10317 13.9721C8.79072 13.871 8.53122 13.6499 8.38176 13.3575C8.2323 13.0651 8.20513 12.7253 8.30622 12.4129L8.36397 12.2545C8.5335 11.8406 8.77356 11.4593 9.07347 11.1275H9.07512Z" fill="white"/>
+                                <path d="M18.5627 9.8999C18.8909 9.8999 19.2057 10.0303 19.4377 10.2624C19.6698 10.4944 19.8002 10.8092 19.8002 11.1374V15.6749H22.2752V11.1374C22.2752 10.8092 22.4056 10.4944 22.6377 10.2624C22.8697 10.0303 23.1845 9.8999 23.5127 9.8999C23.8409 9.8999 24.1557 10.0303 24.3877 10.2624C24.6198 10.4944 24.7502 10.8092 24.7502 11.1374V21.8129C24.7502 22.1411 24.6198 22.4559 24.3877 22.6879C24.1557 22.92 23.8409 23.0504 23.5127 23.0504C23.1845 23.0504 22.8697 22.92 22.6377 22.6879C22.4056 22.4559 22.2752 22.1411 22.2752 21.8129V18.1499H18.5627C18.2345 18.1499 17.9197 18.0195 17.6877 17.7874C17.4556 17.5554 17.3252 17.2406 17.3252 16.9124V11.1374C17.3252 10.8092 17.4556 10.4944 17.6877 10.2624C17.9197 10.0303 18.2345 9.8999 18.5627 9.8999Z" fill="white"/>
+                                <path d="M33 16.5C33 7.38705 25.6129 0 16.5 0C7.38705 0 0 7.38705 0 16.5C0 25.6129 7.38705 33 16.5 33C25.6129 33 33 25.6129 33 16.5ZM2.475 16.5C2.475 12.7803 3.95263 9.21303 6.58283 6.58283C9.21303 3.95263 12.7803 2.475 16.5 2.475C20.2197 2.475 23.787 3.95263 26.4172 6.58283C29.0474 9.21303 30.525 12.7803 30.525 16.5C30.525 20.2197 29.0474 23.787 26.4172 26.4172C23.787 29.0474 20.2197 30.525 16.5 30.525C12.7803 30.525 9.21303 29.0474 6.58283 26.4172C3.95263 23.787 2.475 20.2197 2.475 16.5Z" fill="white"/>
+                                </svg>
+                            <p class="text-sm text-center text-white font-roboto">24/7 Support</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- platforms we work on -->
+            <section style="background-image: url(assets/bg-vector.svg);" class="pt-20 bg-no-repeat bg-cover lg:pt-60">
+                <div class="px-4 mx-auto max-w-7xl 2xl:w-1376">
+                    <h1 class="text-3xl font-bold text-center capitalize text-brand-black font-montserrat">platform we work on</h1>
+                    <p class="pb-10 text-lg text-center text-gray-500 lg:pb-24 font-roboto pt-7">We work on a list of platforms. you <br> just name it!</p>
+
+                    <div class="hidden grid-cols-5 grid-rows-6 gap-5 lg:grid xl:gap-10">
+                        <div class="flex items-center justify-center h-20 col-start-1 row-span-2 row-start-3 transition ease-in-out bg-white w-36 xl:w-44 2xl:w-60 xl:h-24 2xl:h-28 rounded-3xl hover:shadow-lg">
+                            <img src="assets/fedex.svg" alt="">
+                        </div>
+                        <div class="flex items-center justify-center h-20 col-start-2 row-span-2 row-start-2 transition ease-in-out bg-white w-36 xl:w-44 2xl:w-60 xl:h-24 2xl:h-28 rounded-3xl hover:shadow-lg">
+                            <img src="assets/dat.svg" alt="">
+                        </div>
+                        <div class="flex items-center justify-center h-20 col-start-2 row-span-2 row-start-4 transition ease-in-out bg-white w-36 xl:w-44 2xl:w-60 xl:h-24 2xl:h-28 rounded-3xl hover:shadow-lg">
+                            <img src="assets/xpo-logistics.svg" alt="">
+                        </div>
+                        <div class="flex items-center justify-center h-20 col-start-3 row-span-2 row-start-1 transition ease-in-out bg-white w-36 xl:w-44 2xl:w-60 xl:h-24 2xl:h-28 rounded-3xl hover:shadow-lg">
+                            <img src="assets/emerge.svg" alt="">
+                        </div>
+                        <div class="flex items-center justify-center h-20 col-start-3 row-span-2 row-start-3 transition ease-in-out bg-white w-36 xl:w-44 2xl:w-60 xl:h-24 2xl:h-28 rounded-3xl hover:shadow-lg">
+                            <img src="assets/amazon.svg" alt="">
+                        </div>
+                        <div class="flex items-center justify-center h-20 col-start-3 row-span-2 row-start-5 transition ease-in-out bg-white w-36 xl:w-44 2xl:w-60 xl:h-24 2xl:h-28 rounded-3xl hover:shadow-lg">
+                            <img src="assets/eagle-xpress.svg" alt="">
+                        </div>
+                        <div class="flex items-center justify-center h-20 col-start-4 row-span-2 row-start-2 transition ease-in-out bg-white w-36 xl:w-44 2xl:w-60 xl:h-24 2xl:h-28 rounded-3xl hover:shadow-lg">
+                            <img src="assets/ups.svg" alt="">
+                        </div>
+                        <div class="flex items-center justify-center h-20 col-start-4 row-span-2 row-start-4 transition ease-in-out bg-white w-36 xl:w-44 2xl:w-60 xl:h-24 2xl:h-28 rounded-3xl hover:shadow-lg">
+                            <img src="assets/utxl.svg" alt="">
+                        </div>
+                        <div class="flex items-center justify-center h-20 col-start-5 row-span-2 row-start-3 transition ease-in-out bg-white w-36 xl:w-44 2xl:w-60 xl:h-24 2xl:h-28 rounded-3xl hover:shadow-lg">
+                            <img src="assets/syfan-logistics.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-10 place-items-center sm:grid-cols-3 lg:hidden">
+                        <div class="flex items-center justify-center h-20 transition ease-in-out bg-white w-36 rounded-2xl hover:shadow-lg">
+                            <img src="assets/fedex.svg" alt="">
+                        </div>
+                        <div class="flex items-center justify-center h-20 transition ease-in-out bg-white w-36 rounded-2xl hover:shadow-lg">
+                            <img src="assets/dat.svg" alt="">
+                        </div>
+                        <div class="flex items-center justify-center h-20 transition ease-in-out bg-white w-36 rounded-2xl hover:shadow-lg">
+                            <img src="assets/xpo-logistics.svg" alt="">
+                        </div>
+                        <div class="flex items-center justify-center h-20 transition ease-in-out bg-white w-36 rounded-2xl hover:shadow-lg">
+                            <img src="assets/emerge.svg" alt="">
+                        </div>
+                        <div class="flex items-center justify-center h-20 transition ease-in-out bg-white w-36 rounded-2xl hover:shadow-lg">
+                            <img src="assets/amazon.svg" alt="">
+                        </div>
+                        <div class="flex items-center justify-center h-20 transition ease-in-out bg-white w-36 rounded-2xl hover:shadow-lg">
+                            <img src="assets/eagle-xpress.svg" alt="">
+                        </div>
+                        <div class="flex items-center justify-center h-20 transition ease-in-out bg-white w-36 rounded-2xl hover:shadow-lg">
+                            <img src="assets/ups.svg" alt="">
+                        </div>
+                        <div class="flex items-center justify-center h-20 transition ease-in-out bg-white w-36 rounded-2xl hover:shadow-lg">
+                            <img src="assets/utxl.svg" alt="">
+                        </div>
+                        <div class="flex items-center justify-center h-20 col-span-2 transition ease-in-out bg-white sm:col-span-1 w-36 rounded-2xl hover:shadow-lg">
+                            <img src="assets/syfan-logistics.svg" alt="">
+                        </div>
+                    </div>
+
+                    <p class="hidden pr-64 text-3xl text-right text-gray-500 transform lg:block pt-14 -rotate-12 font-zeyada">And Many More</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- who we helped -->
+        <section class="w-full h-auto lg:pt-40 pt-14 pb-28">
+            <h1 class="text-3xl font-bold text-center capitalize text-brand-black font-montserrat">who we helped</h1>
+            <p class="pb-16 text-lg text-center text-gray-500 lg:pb-24 font-roboto pt-7">Let others speak</p>
+            <!-- slider -->
+            <div class="carousel">
+                <div class="owl-one owl-carousel owl-theme flex items-center w-full h-auto pb-10 lg:pb-20">
+                    <div class="p-4 xl:p-8 bg-white rounded-xl font-montserrat w-auto mr-4 md:mr-6">
+                        <div class="flex items-center space-x-6">
+                            <img class="w-20 rounded" src="assets/slider-img.png" alt="">
+                            <div>
+                                <p class="text-lg font-medium">Robert Fox</p>
+                                <p class="pt-1 pb-2 text-lg">Binford Ltd.</p>
+                                <p class="text-sm text-gray-500">November 28, 2015</p>
+                            </div>
+                        </div>
+                        <p class="pt-14 font-montserrat pb-11">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididuntюю Voluptate exercitation incididuntю</p>
+                        <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.3 9.66C8.18 10.02 8.86 10.6 9.34 11.4C9.86 12.16 10.12 13.08 10.12 14.16C10.12 15.6 9.66 16.78 8.74 17.7C7.82 18.62 6.68 19.08 5.32 19.08C3.88 19.08 2.7 18.62 1.78 17.7C0.86 16.78 0.4 15.6 0.4 14.16C0.4 13.44 0.48 12.74 0.64 12.06C0.84 11.38 1.2 10.36 1.72 9L4.9 0.479997H9.7L7.3 9.66ZM20.02 9.66C20.9 10.02 21.58 10.6 22.06 11.4C22.58 12.16 22.84 13.08 22.84 14.16C22.84 15.6 22.38 16.78 21.46 17.7C20.54 18.62 19.4 19.08 18.04 19.08C16.6 19.08 15.42 18.62 14.5 17.7C13.58 16.78 13.12 15.6 13.12 14.16C13.12 13.44 13.2 12.74 13.36 12.06C13.56 11.38 13.92 10.36 14.44 9L17.62 0.479997H22.42L20.02 9.66Z" fill="#FF0066"/>
+                        </svg>
+                    </div>
+
+                    <div class="p-4 xl:p-8 bg-white rounded-xl font-montserrat w-auto mr-4 md:mr-6">
+                        <div class="flex items-center space-x-6">
+                            <img class="w-20 rounded" src="assets/slider-img.png" alt="">
+                            <div>
+                                <p class="text-lg font-medium">Robert Fox</p>
+                                <p class="pt-1 pb-2 text-lg">Binford Ltd.</p>
+                                <p class="text-sm text-gray-500">November 28, 2015</p>
+                            </div>
+                        </div>
+                        <p class="pt-14 font-montserrat pb-11">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididuntюю Voluptate exercitation incididuntю</p>
+                        <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.3 9.66C8.18 10.02 8.86 10.6 9.34 11.4C9.86 12.16 10.12 13.08 10.12 14.16C10.12 15.6 9.66 16.78 8.74 17.7C7.82 18.62 6.68 19.08 5.32 19.08C3.88 19.08 2.7 18.62 1.78 17.7C0.86 16.78 0.4 15.6 0.4 14.16C0.4 13.44 0.48 12.74 0.64 12.06C0.84 11.38 1.2 10.36 1.72 9L4.9 0.479997H9.7L7.3 9.66ZM20.02 9.66C20.9 10.02 21.58 10.6 22.06 11.4C22.58 12.16 22.84 13.08 22.84 14.16C22.84 15.6 22.38 16.78 21.46 17.7C20.54 18.62 19.4 19.08 18.04 19.08C16.6 19.08 15.42 18.62 14.5 17.7C13.58 16.78 13.12 15.6 13.12 14.16C13.12 13.44 13.2 12.74 13.36 12.06C13.56 11.38 13.92 10.36 14.44 9L17.62 0.479997H22.42L20.02 9.66Z" fill="#FF0066"/>
+                        </svg>
+                    </div>
+
+                    <div class="p-4 xl:p-8 bg-white rounded-xl font-montserrat w-auto mr-4 md:mr-6">
+                        <div class="flex items-center space-x-6">
+                            <img class="w-20 rounded" src="assets/slider-img.png" alt="">
+                            <div>
+                                <p class="text-lg font-medium">Robert Fox</p>
+                                <p class="pt-1 pb-2 text-lg">Binford Ltd.</p>
+                                <p class="text-sm text-gray-500">November 28, 2015</p>
+                            </div>
+                        </div>
+                        <p class="pt-14 font-montserrat pb-11">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididuntюю Voluptate exercitation incididuntю</p>
+                        <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.3 9.66C8.18 10.02 8.86 10.6 9.34 11.4C9.86 12.16 10.12 13.08 10.12 14.16C10.12 15.6 9.66 16.78 8.74 17.7C7.82 18.62 6.68 19.08 5.32 19.08C3.88 19.08 2.7 18.62 1.78 17.7C0.86 16.78 0.4 15.6 0.4 14.16C0.4 13.44 0.48 12.74 0.64 12.06C0.84 11.38 1.2 10.36 1.72 9L4.9 0.479997H9.7L7.3 9.66ZM20.02 9.66C20.9 10.02 21.58 10.6 22.06 11.4C22.58 12.16 22.84 13.08 22.84 14.16C22.84 15.6 22.38 16.78 21.46 17.7C20.54 18.62 19.4 19.08 18.04 19.08C16.6 19.08 15.42 18.62 14.5 17.7C13.58 16.78 13.12 15.6 13.12 14.16C13.12 13.44 13.2 12.74 13.36 12.06C13.56 11.38 13.92 10.36 14.44 9L17.62 0.479997H22.42L20.02 9.66Z" fill="#FF0066"/>
+                        </svg>
+                    </div>
+
+                    <div class="p-4 xl:p-8 bg-white rounded-xl font-montserrat w-auto mr-4 md:mr-6">
+                        <div class="flex items-center space-x-6">
+                            <img class="w-20 rounded" src="assets/slider-img.png" alt="">
+                            <div>
+                                <p class="text-lg font-medium">Robert Fox</p>
+                                <p class="pt-1 pb-2 text-lg">Binford Ltd.</p>
+                                <p class="text-sm text-gray-500">November 28, 2015</p>
+                            </div>
+                        </div>
+                        <p class="pt-14 font-montserrat pb-11">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididuntюю Voluptate exercitation incididuntю</p>
+                        <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.3 9.66C8.18 10.02 8.86 10.6 9.34 11.4C9.86 12.16 10.12 13.08 10.12 14.16C10.12 15.6 9.66 16.78 8.74 17.7C7.82 18.62 6.68 19.08 5.32 19.08C3.88 19.08 2.7 18.62 1.78 17.7C0.86 16.78 0.4 15.6 0.4 14.16C0.4 13.44 0.48 12.74 0.64 12.06C0.84 11.38 1.2 10.36 1.72 9L4.9 0.479997H9.7L7.3 9.66ZM20.02 9.66C20.9 10.02 21.58 10.6 22.06 11.4C22.58 12.16 22.84 13.08 22.84 14.16C22.84 15.6 22.38 16.78 21.46 17.7C20.54 18.62 19.4 19.08 18.04 19.08C16.6 19.08 15.42 18.62 14.5 17.7C13.58 16.78 13.12 15.6 13.12 14.16C13.12 13.44 13.2 12.74 13.36 12.06C13.56 11.38 13.92 10.36 14.44 9L17.62 0.479997H22.42L20.02 9.66Z" fill="#FF0066"/>
+                        </svg>
+                    </div>
+
+                    <div class="p-4 xl:p-8 bg-white rounded-xl font-montserrat w-auto mr-4 md:mr-6">
+                        <div class="flex items-center space-x-6">
+                            <img class="w-20 rounded" src="assets/slider-img.png" alt="">
+                            <div>
+                                <p class="text-lg font-medium">Robert Fox</p>
+                                <p class="pt-1 pb-2 text-lg">Binford Ltd.</p>
+                                <p class="text-sm text-gray-500">November 28, 2015</p>
+                            </div>
+                        </div>
+                        <p class="pt-14 font-montserrat pb-11">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididuntюю Voluptate exercitation incididuntю</p>
+                        <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.3 9.66C8.18 10.02 8.86 10.6 9.34 11.4C9.86 12.16 10.12 13.08 10.12 14.16C10.12 15.6 9.66 16.78 8.74 17.7C7.82 18.62 6.68 19.08 5.32 19.08C3.88 19.08 2.7 18.62 1.78 17.7C0.86 16.78 0.4 15.6 0.4 14.16C0.4 13.44 0.48 12.74 0.64 12.06C0.84 11.38 1.2 10.36 1.72 9L4.9 0.479997H9.7L7.3 9.66ZM20.02 9.66C20.9 10.02 21.58 10.6 22.06 11.4C22.58 12.16 22.84 13.08 22.84 14.16C22.84 15.6 22.38 16.78 21.46 17.7C20.54 18.62 19.4 19.08 18.04 19.08C16.6 19.08 15.42 18.62 14.5 17.7C13.58 16.78 13.12 15.6 13.12 14.16C13.12 13.44 13.2 12.74 13.36 12.06C13.56 11.38 13.92 10.36 14.44 9L17.62 0.479997H22.42L20.02 9.66Z" fill="#FF0066"/>
+                        </svg>
+                    </div>
+
+                    <div class="p-4 xl:p-8 bg-white rounded-xl font-montserrat w-auto mr-4 md:mr-6">
+                        <div class="flex items-center space-x-6">
+                            <img class="w-20 rounded" src="assets/slider-img.png" alt="">
+                            <div>
+                                <p class="text-lg font-medium">Robert Fox</p>
+                                <p class="pt-1 pb-2 text-lg">Binford Ltd.</p>
+                                <p class="text-sm text-gray-500">November 28, 2015</p>
+                            </div>
+                        </div>
+                        <p class="pt-14 font-montserrat pb-11">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididuntюю Voluptate exercitation incididuntю</p>
+                        <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.3 9.66C8.18 10.02 8.86 10.6 9.34 11.4C9.86 12.16 10.12 13.08 10.12 14.16C10.12 15.6 9.66 16.78 8.74 17.7C7.82 18.62 6.68 19.08 5.32 19.08C3.88 19.08 2.7 18.62 1.78 17.7C0.86 16.78 0.4 15.6 0.4 14.16C0.4 13.44 0.48 12.74 0.64 12.06C0.84 11.38 1.2 10.36 1.72 9L4.9 0.479997H9.7L7.3 9.66ZM20.02 9.66C20.9 10.02 21.58 10.6 22.06 11.4C22.58 12.16 22.84 13.08 22.84 14.16C22.84 15.6 22.38 16.78 21.46 17.7C20.54 18.62 19.4 19.08 18.04 19.08C16.6 19.08 15.42 18.62 14.5 17.7C13.58 16.78 13.12 15.6 13.12 14.16C13.12 13.44 13.2 12.74 13.36 12.06C13.56 11.38 13.92 10.36 14.44 9L17.62 0.479997H22.42L20.02 9.66Z" fill="#FF0066"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- logos -->
+        <section class="carousel px-4 lg:px-16 xl:px-32 pb-40">
+           <div class="owl-two owl-carousel owl-theme flex items-center">
+                <img src="assets/j-b-hunt.png" alt="">
+                <img src="assets/summit.png" alt="">
+                <img src="assets/infomax.png" alt="">
+                <img src="assets/coyote.png" alt="">
+                <img src="assets/easley-transportation.png" alt="">
+                <img src="assets/lipsey-logistics.png" alt="">
+           </div>
+        </section>
+    </main>
+
+    <footer style="background-image: url(assets/footer-bg.png);" class="relative bg-no-repeat bg-cover">
+
+        <div class="px-4 pb-10 mx-auto pt-28 lg:pt-40 lg:pb-20 max-w-7xl 2xl:w-1376">
+
+            <div class="items-center justify-between pb-12 border-b border-white md:flex md:pb-20">
+                <div class="pb-6 md:pb-0">
+                    <h1 class="text-2xl font-bold text-white capitalize md:text-3xl font-montserrat">interested in <br> working with us?</h1>
+                    <p class="pt-4 text-base text-white capitalize md:text-lg font-roboto">register now and leave the rest to us</p>
+                </div>
+                <a class="flex items-center justify-center py-3.5 md:py-5 space-x-4 text-white uppercase transition ease-in-out rounded-lg bg-brand-red hover:bg-brand-red/80 sm:w-72 w-full" href="courseReg.html">
+                    <p class="text-lg font-medium font-montserrat">register</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="w-full pt-12 lg:flex lg:pt-20">
+                <div class="w-full lg:w-2/5">
+                    <a href="index.html">
+                        <img src="assets/logo-white.svg" alt="logo">
+                    </a>
+                    <div class="flex items-start pt-10 space-x-5 text-white">
+                        <p class="font-bold font-montserrat">A.</p>
+                        <p class="font-montserrat">30 North Gould Street Ste N, Sheridan, WY 82801</p>
+                    </div>
+                    <div class="flex items-start pt-5 space-x-5 text-white">
+                        <p class="font-bold font-montserrat">T.</p>
+                        <a href="tel:+19419195040" class="font-montserrat">+1 941 919 5040</a>
+                    </div>
+                    <div class="flex items-start pt-5 space-x-5 text-white">
+                        <p class="font-bold font-montserrat">E.</p>
+                        <a href="mailto:bookitdispatch@gmail.com" class="font-montserrat">bookitdispatch@gmail.com</a>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap items-start w-full text-white lg:w-3/5 lg:pl-28 font-montserrat">
+                    <div class="w-1/2 pt-12 space-y-5 sm:w-1/3">
+                        <p class="pb-3 font-semibold uppercase">about us</p>
+                        <a href="index.html" class="block hover:underline">Home</a>
+                        <a href="about.html" class="block hover:underline">About</a>
+                        <a href="services.html" class="block hover:underline">Services</a>
+                        <a href="form1.html" class="block hover:underline">Carrier Setup</a>
+                        <a href="#" class="block hover:underline">Contact Us</a>
+                    </div>
+                    <div class="w-1/2 pt-12 space-y-5 sm:w-1/3">
+                        <p class="pb-3 font-semibold uppercase">follow us</p>
+                        <a href="#" class="block hover:underline">Instagram</a>
+                        <a href="#" class="block hover:underline">Facebook</a>
+                        <a href="#" class="block hover:underline">Telegram</a>
+                        <a href="#" class="block hover:underline">Youtube</a>
+                    </div>
+                    <div class="w-1/2 pt-12 space-y-5 sm:w-1/3">
+                        <p class="pb-3 font-semibold uppercase">I am a ...</p>
+                        <a href="#" class="block hover:underline">Broker</a>
+                        <a href="#" class="block hover:underline">Carrier</a>
+                        <a href="#" class="block hover:underline">Owner Operator</a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="pt-12 text-xs leading-loose text-center text-white md:text-sm md:text-right font-montserrat"><a class="hover:underline" href="#">TERMS AND CONDITIONS</a> | <a class="hover:underline" href="privacyPolicy.html">PRIVACY POLICY</a> &nbsp;&nbsp; © 2021 BOOKIT LLC</p>
+        </div>
+
+        <!-- back to top button -->
+        <div class="absolute z-40 hidden 2xl:block top-1/3 right-5">
+            <button class="flex items-center justify-center w-20 h-20 transition ease-in-out bg-white rounded-full toTopBtn text-brand-dark-blue hover:bg-brand-dark-blue hover:text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+                </svg>
+            </button>
+        </div>
+    </footer>
+
+    <!-- live chat -->
+    <div class="fixed z-50 hidden liveChat bottom-4 right-4">
+        <div class="flex justify-end pb-2">
+            <button class="flex items-center justify-center w-10 h-10 transition ease-in-out bg-white rounded-full closeLiveChat text-brand-red hover:bg-brand-red hover:text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+        <div class="relative overflow-hidden w-80 md:w-[440px] h-[500px] bg-white rounded-2xl box-shadow">
+            <div class="h-full p-4 md:p-8 overflow-y-auto">
+                <div class="flex items-start pb-10 space-x-7">
+                    <p class="px-5 py-4 text-sm rounded-md font-mulish text-brand-black bg-brand-blue-bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis?</p>
+                    <img class="w-12 h-12 -mt-2 border-2 rounded-lg border-brand-dark-blue" src="assets/slider-img.png" alt="">
+                </div>
+                <div class="flex items-start pb-10 space-x-7">
+                    <img class="w-12 h-12 -mt-2 border-2 rounded-lg border-brand-red" src="assets/slider-img.png" alt="">
+                    <p class="px-5 py-4 text-sm rounded-md font-mulish text-brand-black bg-brand-blue-bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis?</p>
+                </div>
+                <div class="flex items-start pb-10 space-x-7">
+                    <p class="px-5 py-4 text-sm rounded-md font-mulish text-brand-black bg-brand-blue-bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis?</p>
+                    <img class="w-12 h-12 -mt-2 border-2 rounded-lg border-brand-dark-blue" src="assets/slider-img.png" alt="">
+                </div>
+                <div class="flex items-start pb-10 space-x-7">
+                    <img class="w-12 h-12 -mt-2 border-2 rounded-lg border-brand-red" src="assets/slider-img.png" alt="">
+                    <p class="px-5 py-4 text-sm rounded-md font-mulish text-brand-black bg-brand-blue-bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis?</p>
+                </div>
+                <div class="flex items-start pb-10 space-x-7">
+                    <p class="px-5 py-4 text-sm rounded-md font-mulish text-brand-black bg-brand-blue-bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis?</p>
+                    <img class="w-12 h-12 -mt-2 border-2 rounded-lg border-brand-dark-blue" src="assets/slider-img.png" alt="">
+                </div>
+                <div class="flex items-start pb-10 space-x-7">
+                    <img class="w-12 h-12 -mt-2 border-2 rounded-lg border-brand-red" src="assets/slider-img.png" alt="">
+                    <p class="px-5 py-4 text-sm rounded-md font-mulish text-brand-black bg-brand-blue-bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis?</p>
+                </div>
+            </div>
+
+            <!-- enter & send msg field -->
+            <div class="flex items-center justify-between py-2.5 px-4 linear-gradient-bg w-full rounded-xl absolute bottom-0 left-0 right-0">
+                <button class="w-8 h-8 text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </button>
+                <input class="h-10 px-3 text-sm placeholder-gray-500 border-none rounded-lg w-80 font-mulish focus:outline-none" type="text" name="" id="" placeholder="Type Here...">
+                <button class="flex items-center justify-center w-10 h-10 text-white transition ease-in-out rounded-lg bg-brand-red hover:bg-brand-red/80">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="vendor/owl-carousel/jquery.min.js"></script>
+    <script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+</body>
+</html>

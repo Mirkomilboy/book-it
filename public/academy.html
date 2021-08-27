@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book It | Academy</title>
+    <link rel="icon" href="assets/logo.svg">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- font style link -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Mulish:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&family=Zeyada&display=swap" rel="stylesheet">
+
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.theme.default.min.css">
+
+    <script src="app.js" defer></script>
+</head>
+<body class="bg-brand-blue-bg">
+    <header class="fixed w-full top-0 z-50">
+        <!-- Mobile -->
+        <div class="h-0 overflow-hidden  w-full px-5  text-sm font-medium uppercase transition-height ease-in-out bg-brand-blue-bg mobileMenu font-montserrat text-brand-black">
+            <div class="py-14 space-y-5">
+                <a class="block text-center transition ease-in-out hover:text-brand-red" href="about.html">about</a>
+            <a class="block text-center transition ease-in-out hover:text-brand-red" href="services.html">services</a>
+            <a class="block text-center transition ease-in-out hover:text-brand-red" href="forClients1.html">for clients</a>
+            <a class="block text-center transition ease-in-out hover:text-brand-red" href="about.html">FAQ</a>
+            <a class="block text-center transition ease-in-out hover:text-brand-red" href="academy.html">Academy</a>
+            <div class="text-center">
+                <a class="text-brand-red border-2 border-brand-red rounded-xl py-2.5 px-3 hover:bg-brand-red/10 transition inline-block ease-in-out" href="form1.html">carrier setup</a>
+            </div>
+            </div>
+        </div>
+
+
+        <!-- Desktop -->
+        <div class="nav  items-center justify-between lg:justify-start  w-full px-5 space-x-5 text-sm font-medium uppercase transition ease-in flex h-20 lg:h-28 md:pl-16 lg:pl-36  font-montserrat text-brand-black">
+            <a href="index.html"><img class="w-12" src="assets/logo.svg" alt=""></a>
+            
+            <div class="hidden lg:flex items-center lg:space-x-7">
+                <a class="transition ease-in-out hover:text-brand-red" href="about.html">about</a>
+                <a class="transition ease-in-out hover:text-brand-red" href="services.html">services</a>
+                <a class="transition ease-in-out hover:text-brand-red" href="forClients1.html">for clients</a>
+                <a class="transition ease-in-out hover:text-brand-red" href="about.html">FAQ</a>
+                <a class="transition ease-in-out hover:text-brand-red" href="academy.html">Academy</a>
+                <a class="text-brand-red border-2 border-brand-red rounded-xl py-2.5 px-3 hover:bg-brand-red/10 transition ease-in-out" href="form1.html">carrier setup</a>
+            </div>
+
+            <button class="text-brand-black menuBtn lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main class="relative transition-spacing ease-in-out">
+
+        <!-- hero -->
+        <section class="lg:mt-32">
+            <img class="w-full lg:hidden" src="assets/academy-hero.png" alt="">
+            <div class="relative px-5 -mt-16 sm:-mt-44 md:-mt-56 md:px-20 2xl:px-52 lg:mt-0">
+                <img class="hidden lg:block absolute z-0 top-20 left-28" src="assets/dots.svg" alt="">
+                <h1 class="relative z-10 text-3xl font-bold md:text-6xl font-montserrat text-brand-black lg:pt-36">Leading <br> Dispatching <br> Academy</h1>
+                <p class="py-10 text-base capitalize lg:max-w-lg md:text-xl text-brand-black font-roboto">Demand for dispatchers are high like never. Become one of the most valued dispatchers with us.</p>
+                <!-- hero select -->
+                <div class="relative inline-block">
+                    <div class="relative">
+                        <select class="relative z-10 w-64 h-16 pl-10 text-center text-white border-none rounded-lg appearance-none bg-brand-red font-montserrat form-select focus:outline-none" name="" id="">
+                            <option class="bg-white text-brand-red" value="">Build Your Future...</option>
+                            <option class="bg-white text-brand-red" value="">Broker</option>
+                            <option class="bg-white text-brand-red" value="">Carrier</option>
+                            <option class="bg-white text-brand-red" value="">Owner Operator</option>
+                        </select>
+                        <div class="absolute inset-y-0 z-30 flex items-center px-2 text-white pointer-events-none right-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="absolute z-0 w-64 h-16 border-2 rounded-lg top-2.5 left-2.5 bg-none border-brand-red"></div>
+                </div>
+            </div>
+            <img class="absolute hidden right-0 w-1/2 lg:block -top-32" src="assets/academy-hero.png" alt="">
+        </section>
+
+        <!-- You need us if you... -->
+        <section class="max-w-7xl 2xl:w-1376 mx-auto px-4 pt-40 pb-24 lg:pt-[590px]">
+            <div class="flex flex-col xl:flex-row items-center justify-center">
+                <div>
+                    <h1 class="font-montserrat font-bold text-5xl text-brand-black">you need us if you...</h1>
+                    <div class="flex flex-col sm:flex-row items-center justify-center pt-14 xl:pt-24">
+                        <div class="rounded-xl overflow-hidden pt-7 sm:pt-0">
+                            <img class="w-full sm:w-72" src="assets/need-1.png" alt="">
+                            <div class="w-full sm:w-72 py-8 px-5 bg-white ">
+                                <p class="font-montserrat font-bold text-xl text-brand-black">want to learn something new</p>
+                                <p class="font-roboto text-lg text-brand-black pt-2.5">Logistics sphere Needs more specialists</p>
+                            </div>
+                        </div>
+                        <div class="rounded-xl overflow-hidden pt-7 sm:pt-0 sm:ml-6 sm:mt-6">
+                            <img class="w-full sm:w-72" src="assets/need-2.png" alt="">
+                            <div class="w-full sm:w-72 py-8 px-5 bg-white ">
+                                <p class="font-montserrat font-bold text-xl text-brand-black">want to learn something new</p>
+                                <p class="font-roboto text-lg text-brand-black pt-2.5">Logistics sphere Needs more specialists</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col sm:flex-row items-center justify-center xl:ml-10">
+                    <div class="rounded-xl overflow-hidden pt-7 sm:pt-0">
+                        <img class="w-full sm:w-72" src="assets/need-3.png" alt="">
+                        <div class="w-full sm:w-72 py-8 px-5 bg-white ">
+                            <p class="font-montserrat font-bold text-xl text-brand-black">want to learn something new</p>
+                            <p class="font-roboto text-lg text-brand-black pt-2.5">Logistics sphere Needs more specialists</p>
+                        </div>
+                    </div>
+                    <div class="rounded-xl overflow-hidden pt-7 sm:pt-0 sm:ml-6 sm:mt-6">
+                        <img class="w-full sm:w-72" src="assets/need-4.png" alt="">
+                        <div class="w-full sm:w-72 py-8 px-5 bg-white ">
+                            <p class="font-montserrat font-bold text-xl text-brand-black">want to learn something new</p>
+                            <p class="font-roboto text-lg text-brand-black pt-2.5">Logistics sphere Needs more specialists</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- what you get from this course -->
+        <section style="background-image: url(assets/bg-vector.svg);" class="pt-20 bg-no-repeat bg-cover lg:pt-60">
+            <div class="px-4 mx-auto max-w-7xl 2xl:w-1376">
+                <h1 class="text-3xl font-bold text-center capitalize text-brand-black font-montserrat pt-10">what you get from this course</h1>
+                <!-- desktop design -->
+                <div class="hidden md:flex font-roboto text-brand-black pt-24">
+                    <!-- left -->
+                    <div class="w-2/5">
+                        <div class="flex justify-end">
+                            <div class="bg-white rounded-full shadow-lg w-28 lg:w-36 h-28 lg:h-36 flex items-center justify-center">
+                                <img src="assets/quality.svg" alt="">
+                            </div>
+                        </div>
+
+                        <h1 class="font-bold text-xl pt-16 pb-2.5">Practical experience</h1>
+                        <p class="text-lg">After successfully finishing the theoritical part of our courses we offer a practical experience with the real world communications</p>
+
+                        <div class="flex justify-end pt-10">
+                            <div class="bg-white rounded-full shadow-lg w-28 lg:w-36 h-28 lg:h-36 flex items-center justify-center">
+                                <img src="assets/certificate.svg" alt="">
+                            </div>
+                        </div>
+
+                        <h1 class="font-bold text-xl pt-14 pb-2.5">Preparation for interview</h1>
+                        <p class="text-lg">In addition we provide usefull pieces of advices in terms of job interview with logistics companies. We show guideline for overlooked questions so you can be a step ahed of your competitors</p>
+
+                        <div class="flex justify-end pt-10">
+                            <div class="bg-white rounded-full shadow-lg w-28 lg:w-36 h-28 lg:h-36 flex items-center justify-center">
+                                <img src="assets/set-up.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- center -->
+                    <div class="relative w-1/5 flex flex-col items-center">
+                        <svg class="mt-12" width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="13.5" cy="13.5" r="12.5" fill="#F3F4FF" stroke="#BFDDED" stroke-width="2"/>
+                        </svg>
+                        <svg class="mt-40" width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="13.5" cy="13.5" r="12.5" fill="#F3F4FF" stroke="#BFDDED" stroke-width="2"/>
+                        </svg>
+                        <svg class="mt-40" width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="13.5" cy="13.5" r="12.5" fill="#F3F4FF" stroke="#BFDDED" stroke-width="2"/>
+                        </svg>
+                        <svg class="mt-48 lg:mt-40" width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="13.5" cy="13.5" r="12.5" fill="#F3F4FF" stroke="#BFDDED" stroke-width="2"/>
+                        </svg>
+                        <svg class="mt-44" width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="13.5" cy="13.5" r="12.5" fill="#F3F4FF" stroke="#BFDDED" stroke-width="2"/>
+                        </svg>
+                        <img  class="absolute z-0 top-0 left-1/2" src="assets/line.svg" alt="">
+                    </div>
+
+                    <!-- right -->
+                    <div class="w-2/5">
+                        <h1 class="font-bold text-xl pt-4 pb-2.5">Quality courses</h1>
+                        <p class="text-lg">Our courses are led by experienced dispathcers and head dispatchers who have worked in the leading logistics companies for years</p>
+
+                        <div class="bg-white rounded-full shadow-lg w-28 lg:w-36 h-28 lg:h-36 flex items-center justify-center mt-10">
+                            <img src="assets/practical.svg" alt="">
+                        </div>
+
+                        <h1 class="font-bold text-xl pt-12 pb-2.5">Certificate of completion</h1>
+                        <p class="text-lg">Successfull graduates of the course fully will be awarded a certificate of completion proving you have undergone logistics courses and have some practical knowledge</p>
+
+                        <div class="bg-white rounded-full shadow-lg w-28 lg:w-36 h-28 lg:h-36 flex items-center justify-center mt-14">
+                            <img src="assets/preparation.svg" alt="">
+                        </div>
+
+                        <h1 class="font-bold text-xl pt-20 pb-2.5">Interview set up with employers</h1>
+                        <p class="text-lg">Student finishing the courses with highest marks and showing enthusiasm will be given a chance to have an interview with leading companies. The interview set up is on us!</p>
+                    </div>
+                </div>
+
+                <!-- mobile design -->
+                <div class="md:hidden relative space-y-12 mt-10">
+                    <div class="relative z-10 flex items-center space-x-5">
+                        <div class="bg-white rounded-full shadow-lg w-16 h-16 flex flex-shrink-0 items-center justify-center">
+                            <img class="w-7" src="assets/quality.svg" alt="">
+                        </div>
+                        <div>
+                            <h1 class="font-bold text-xl">Quality courses</h1>
+                            <p class="text-lg">Our courses are led by experienced dispathcers and head dispatchers who have worked in the leading logistics companies for years</p>
+                        </div>
+                    </div>
+
+                    <div class="relative z-10 flex items-center space-x-5">
+                        <div class="bg-white rounded-full shadow-lg w-16 h-16 flex flex-shrink-0 items-center justify-center">
+                            <img class="w-7" src="assets/practical.svg" alt="">
+                        </div>
+                        <div>
+                            <h1 class="font-bold text-xl">Practical experience</h1>
+                            <p class="text-lg">After successfully finishing the theoritical part of our courses we offer a practical experience with the real world communications</p>
+                        </div>
+                    </div>
+
+                    <div class="relative z-10 flex items-center space-x-5">
+                        <div class="bg-white rounded-full shadow-lg w-16 h-16 flex flex-shrink-0 items-center justify-center">
+                            <img class="w-7" src="assets/certificate.svg" alt="">
+                        </div>
+                        <div>
+                            <h1 class="font-bold text-xl">Certificate of completion</h1>
+                            <p class="text-lg">Successfull graduates of the course fully will be awarded a certificate of completion proving you have undergone logistics courses and have some practical knowledge</p>
+                        </div>
+                    </div>
+
+                    <div class="relative z-10 flex items-center space-x-5">
+                        <div class="bg-white rounded-full shadow-lg w-16 h-16 flex flex-shrink-0 items-center justify-center">
+                            <img class="w-7" src="assets/preparation.svg" alt="">
+                        </div>
+                        <div>
+                            <h1 class="font-bold text-xl">Preparation for interview</h1>
+                            <p class="text-lg">In addition we provide usefull pieces of advices in terms of job interview with logistics companies. We show guideline for overlooked questions so you can be a step ahed of your competitors</p>
+                        </div>
+                    </div>
+
+                    <div class="relative z-10 flex items-center space-x-5">
+                        <div class="bg-white rounded-full shadow-lg w-16 h-16 flex flex-shrink-0 items-center justify-center">
+                            <img class="w-7" src="assets/set-up.svg" alt="">
+                        </div>
+                        <div>
+                            <h1 class="font-bold text-xl">Interview set up with employers</h1>
+                            <p class="text-lg">Student finishing the courses with highest marks and showing enthusiasm will be given a chance to have an interview with leading companies. The interview set up is on us!</p>
+                        </div>
+                    </div>
+
+                    <img class="absolute z-0 top-0 left-8 h-[87%]" src="assets/line.svg" alt="">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- if you choose courses -->
+        <section class="max-w-7xl 2xl:w-1376 mx-auto px-4 pt-52">
+            <div class="linear-gradient-bg rounded-xl w-full md:flex space-y-16 md:space-y-0 md:space-x-16 lg:space-x-36 py-8 lg:py-24 px-4 ms:px-12 lg:px-28">
+                <div class="flex-1 space-y-3">
+                    <button data-tab-target="#standard" class="tab active w-full flex items-center space-x-3 lg:space-x-6 text-white rounded-xl py-4 px-8">
+                        <div class="flex items-center justify-center w-14 h-14 rounded-full flex-shrink-0 bg-[#D6EEFB]">
+                            <img src="assets/standard.svg" alt="">
+                        </div>
+                        <p class="font-roboto text-lg">Standard courses</p>
+                    </button>
+
+                    <button data-tab-target="#express" class="tab w-full flex items-center space-x-3 lg:space-x-6 text-white rounded-xl py-4 px-8">
+                        <div class="flex items-center justify-center w-14 h-14 rounded-full flex-shrink-0 bg-[#D6EEFB]">
+                            <img src="assets/express.svg" alt="">
+                        </div>
+                        <p class="font-roboto text-lg">Express courses</p>
+                    </button>
+
+                    <button data-tab-target="#online" class="tab w-full flex items-center space-x-3 lg:space-x-6 text-white rounded-xl py-4 px-8">
+                        <div class="flex items-center justify-center w-14 h-14 rounded-full flex-shrink-0 bg-[#D6EEFB]">
+                            <img src="assets/online.svg" alt="">
+                        </div>
+                        <p class="font-roboto text-lg">Online courses</p>
+                    </button>
+                </div>
+                <div id="standard" data-tab-content class="flex-1 active">
+                    <h1 class="font-montserrat font-bold text-white text-3xl">If You Choose <br> <span class="text-brand-red">Standard</span> Courses</h1>
+                    <div class="flex items-center text-white space-x-2.5 pt-5 pb-2.5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                        <p class="font-roboto text-lg">The course last 1.5 month</p>
+                    </div>
+                    <div class="flex items-center text-white space-x-2.5 pb-2.5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                        <p class="font-roboto text-lg">18 Leactures and seminars</p>
+                    </div>
+                    <div class="flex items-center text-white space-x-2.5 pb-2.5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                        <p class="font-roboto text-lg">Theory and Practice</p>
+                    </div>
+                    <div class="flex items-center text-white space-x-2.5 pb-2.5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                        <p class="font-roboto text-lg">Interview set-up</p>
+                    </div>
+                </div>
+                <div id="express" data-tab-content class="flex-1">
+                    <h1 class="font-montserrat font-bold text-white text-3xl">If You Choose <br> <span class="text-brand-red">Express</span> Courses</h1>
+                    <div class="flex items-center text-white space-x-2.5 pt-5 pb-2.5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                        <p class="font-roboto text-lg">The course last one month</p>
+                    </div>
+                    <div class="flex items-center text-white space-x-2.5 pb-2.5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                        <p class="font-roboto text-lg">12 Leactures and seminars</p>
+                    </div>
+                    <div class="flex items-center text-white space-x-2.5 pb-2.5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                        <p class="font-roboto text-lg">Theory and Practice</p>
+                    </div>
+                    <div class="flex items-center text-white space-x-2.5 pb-2.5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                        <p class="font-roboto text-lg">Interview set-up</p>
+                    </div>
+                </div>
+                <div id="online" data-tab-content class="flex-1">
+                    <h1 class="font-montserrat font-bold text-white text-3xl">If You Choose <br> <span class="text-brand-red">Online</span> Courses</h1>
+                    <div class="flex items-center text-white space-x-2.5 pt-5 pb-2.5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                        <p class="font-roboto text-lg">The course last 1.5 month</p>
+                    </div>
+                    <div class="flex items-center text-white space-x-2.5 pb-2.5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                        <p class="font-roboto text-lg">18 Leactures and seminars</p>
+                    </div>
+                    <div class="flex items-center text-white space-x-2.5 pb-2.5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                        <p class="font-roboto text-lg">Theory only</p>
+                    </div>
+                    <div class="flex items-center text-white space-x-2.5 pb-2.5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                        <p class="font-roboto text-lg">No Interview set-up</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- who we helped -->
+        <section class="w-full h-auto lg:pt-40 pt-14 pb-28">
+            <!-- slider -->
+            <div class="carousel">
+                <div class="owl-one owl-carousel owl-theme flex items-center w-full h-auto pb-10 lg:pb-20">
+                    <div class="p-4 xl:p-8 bg-white rounded-xl font-montserrat w-auto mr-4 md:mr-6">
+                        <div class="flex items-center space-x-6">
+                            <img class="w-20 rounded" src="assets/slider-img.png" alt="">
+                            <div>
+                                <p class="text-lg font-medium">Robert Fox</p>
+                                <p class="pt-1 pb-2 text-lg">Binford Ltd.</p>
+                                <p class="text-sm text-gray-500">November 28, 2015</p>
+                            </div>
+                        </div>
+                        <p class="pt-14 font-montserrat pb-11">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididuntюю Voluptate exercitation incididuntю</p>
+                        <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.3 9.66C8.18 10.02 8.86 10.6 9.34 11.4C9.86 12.16 10.12 13.08 10.12 14.16C10.12 15.6 9.66 16.78 8.74 17.7C7.82 18.62 6.68 19.08 5.32 19.08C3.88 19.08 2.7 18.62 1.78 17.7C0.86 16.78 0.4 15.6 0.4 14.16C0.4 13.44 0.48 12.74 0.64 12.06C0.84 11.38 1.2 10.36 1.72 9L4.9 0.479997H9.7L7.3 9.66ZM20.02 9.66C20.9 10.02 21.58 10.6 22.06 11.4C22.58 12.16 22.84 13.08 22.84 14.16C22.84 15.6 22.38 16.78 21.46 17.7C20.54 18.62 19.4 19.08 18.04 19.08C16.6 19.08 15.42 18.62 14.5 17.7C13.58 16.78 13.12 15.6 13.12 14.16C13.12 13.44 13.2 12.74 13.36 12.06C13.56 11.38 13.92 10.36 14.44 9L17.62 0.479997H22.42L20.02 9.66Z" fill="#FF0066"/>
+                        </svg>
+                    </div>
+
+                    <div class="p-4 xl:p-8 bg-white rounded-xl font-montserrat w-auto mr-4 md:mr-6">
+                        <div class="flex items-center space-x-6">
+                            <img class="w-20 rounded" src="assets/slider-img.png" alt="">
+                            <div>
+                                <p class="text-lg font-medium">Robert Fox</p>
+                                <p class="pt-1 pb-2 text-lg">Binford Ltd.</p>
+                                <p class="text-sm text-gray-500">November 28, 2015</p>
+                            </div>
+                        </div>
+                        <p class="pt-14 font-montserrat pb-11">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididuntюю Voluptate exercitation incididuntю</p>
+                        <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.3 9.66C8.18 10.02 8.86 10.6 9.34 11.4C9.86 12.16 10.12 13.08 10.12 14.16C10.12 15.6 9.66 16.78 8.74 17.7C7.82 18.62 6.68 19.08 5.32 19.08C3.88 19.08 2.7 18.62 1.78 17.7C0.86 16.78 0.4 15.6 0.4 14.16C0.4 13.44 0.48 12.74 0.64 12.06C0.84 11.38 1.2 10.36 1.72 9L4.9 0.479997H9.7L7.3 9.66ZM20.02 9.66C20.9 10.02 21.58 10.6 22.06 11.4C22.58 12.16 22.84 13.08 22.84 14.16C22.84 15.6 22.38 16.78 21.46 17.7C20.54 18.62 19.4 19.08 18.04 19.08C16.6 19.08 15.42 18.62 14.5 17.7C13.58 16.78 13.12 15.6 13.12 14.16C13.12 13.44 13.2 12.74 13.36 12.06C13.56 11.38 13.92 10.36 14.44 9L17.62 0.479997H22.42L20.02 9.66Z" fill="#FF0066"/>
+                        </svg>
+                    </div>
+
+                    <div class="p-4 xl:p-8 bg-white rounded-xl font-montserrat w-auto mr-4 md:mr-6">
+                        <div class="flex items-center space-x-6">
+                            <img class="w-20 rounded" src="assets/slider-img.png" alt="">
+                            <div>
+                                <p class="text-lg font-medium">Robert Fox</p>
+                                <p class="pt-1 pb-2 text-lg">Binford Ltd.</p>
+                                <p class="text-sm text-gray-500">November 28, 2015</p>
+                            </div>
+                        </div>
+                        <p class="pt-14 font-montserrat pb-11">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididuntюю Voluptate exercitation incididuntю</p>
+                        <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.3 9.66C8.18 10.02 8.86 10.6 9.34 11.4C9.86 12.16 10.12 13.08 10.12 14.16C10.12 15.6 9.66 16.78 8.74 17.7C7.82 18.62 6.68 19.08 5.32 19.08C3.88 19.08 2.7 18.62 1.78 17.7C0.86 16.78 0.4 15.6 0.4 14.16C0.4 13.44 0.48 12.74 0.64 12.06C0.84 11.38 1.2 10.36 1.72 9L4.9 0.479997H9.7L7.3 9.66ZM20.02 9.66C20.9 10.02 21.58 10.6 22.06 11.4C22.58 12.16 22.84 13.08 22.84 14.16C22.84 15.6 22.38 16.78 21.46 17.7C20.54 18.62 19.4 19.08 18.04 19.08C16.6 19.08 15.42 18.62 14.5 17.7C13.58 16.78 13.12 15.6 13.12 14.16C13.12 13.44 13.2 12.74 13.36 12.06C13.56 11.38 13.92 10.36 14.44 9L17.62 0.479997H22.42L20.02 9.66Z" fill="#FF0066"/>
+                        </svg>
+                    </div>
+
+                    <div class="p-4 xl:p-8 bg-white rounded-xl font-montserrat w-auto mr-4 md:mr-6">
+                        <div class="flex items-center space-x-6">
+                            <img class="w-20 rounded" src="assets/slider-img.png" alt="">
+                            <div>
+                                <p class="text-lg font-medium">Robert Fox</p>
+                                <p class="pt-1 pb-2 text-lg">Binford Ltd.</p>
+                                <p class="text-sm text-gray-500">November 28, 2015</p>
+                            </div>
+                        </div>
+                        <p class="pt-14 font-montserrat pb-11">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididuntюю Voluptate exercitation incididuntю</p>
+                        <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.3 9.66C8.18 10.02 8.86 10.6 9.34 11.4C9.86 12.16 10.12 13.08 10.12 14.16C10.12 15.6 9.66 16.78 8.74 17.7C7.82 18.62 6.68 19.08 5.32 19.08C3.88 19.08 2.7 18.62 1.78 17.7C0.86 16.78 0.4 15.6 0.4 14.16C0.4 13.44 0.48 12.74 0.64 12.06C0.84 11.38 1.2 10.36 1.72 9L4.9 0.479997H9.7L7.3 9.66ZM20.02 9.66C20.9 10.02 21.58 10.6 22.06 11.4C22.58 12.16 22.84 13.08 22.84 14.16C22.84 15.6 22.38 16.78 21.46 17.7C20.54 18.62 19.4 19.08 18.04 19.08C16.6 19.08 15.42 18.62 14.5 17.7C13.58 16.78 13.12 15.6 13.12 14.16C13.12 13.44 13.2 12.74 13.36 12.06C13.56 11.38 13.92 10.36 14.44 9L17.62 0.479997H22.42L20.02 9.66Z" fill="#FF0066"/>
+                        </svg>
+                    </div>
+
+                    <div class="p-4 xl:p-8 bg-white rounded-xl font-montserrat w-auto mr-4 md:mr-6">
+                        <div class="flex items-center space-x-6">
+                            <img class="w-20 rounded" src="assets/slider-img.png" alt="">
+                            <div>
+                                <p class="text-lg font-medium">Robert Fox</p>
+                                <p class="pt-1 pb-2 text-lg">Binford Ltd.</p>
+                                <p class="text-sm text-gray-500">November 28, 2015</p>
+                            </div>
+                        </div>
+                        <p class="pt-14 font-montserrat pb-11">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididuntюю Voluptate exercitation incididuntю</p>
+                        <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.3 9.66C8.18 10.02 8.86 10.6 9.34 11.4C9.86 12.16 10.12 13.08 10.12 14.16C10.12 15.6 9.66 16.78 8.74 17.7C7.82 18.62 6.68 19.08 5.32 19.08C3.88 19.08 2.7 18.62 1.78 17.7C0.86 16.78 0.4 15.6 0.4 14.16C0.4 13.44 0.48 12.74 0.64 12.06C0.84 11.38 1.2 10.36 1.72 9L4.9 0.479997H9.7L7.3 9.66ZM20.02 9.66C20.9 10.02 21.58 10.6 22.06 11.4C22.58 12.16 22.84 13.08 22.84 14.16C22.84 15.6 22.38 16.78 21.46 17.7C20.54 18.62 19.4 19.08 18.04 19.08C16.6 19.08 15.42 18.62 14.5 17.7C13.58 16.78 13.12 15.6 13.12 14.16C13.12 13.44 13.2 12.74 13.36 12.06C13.56 11.38 13.92 10.36 14.44 9L17.62 0.479997H22.42L20.02 9.66Z" fill="#FF0066"/>
+                        </svg>
+                    </div>
+
+                    <div class="p-4 xl:p-8 bg-white rounded-xl font-montserrat w-auto mr-4 md:mr-6">
+                        <div class="flex items-center space-x-6">
+                            <img class="w-20 rounded" src="assets/slider-img.png" alt="">
+                            <div>
+                                <p class="text-lg font-medium">Robert Fox</p>
+                                <p class="pt-1 pb-2 text-lg">Binford Ltd.</p>
+                                <p class="text-sm text-gray-500">November 28, 2015</p>
+                            </div>
+                        </div>
+                        <p class="pt-14 font-montserrat pb-11">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididuntюю Voluptate exercitation incididuntю</p>
+                        <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.3 9.66C8.18 10.02 8.86 10.6 9.34 11.4C9.86 12.16 10.12 13.08 10.12 14.16C10.12 15.6 9.66 16.78 8.74 17.7C7.82 18.62 6.68 19.08 5.32 19.08C3.88 19.08 2.7 18.62 1.78 17.7C0.86 16.78 0.4 15.6 0.4 14.16C0.4 13.44 0.48 12.74 0.64 12.06C0.84 11.38 1.2 10.36 1.72 9L4.9 0.479997H9.7L7.3 9.66ZM20.02 9.66C20.9 10.02 21.58 10.6 22.06 11.4C22.58 12.16 22.84 13.08 22.84 14.16C22.84 15.6 22.38 16.78 21.46 17.7C20.54 18.62 19.4 19.08 18.04 19.08C16.6 19.08 15.42 18.62 14.5 17.7C13.58 16.78 13.12 15.6 13.12 14.16C13.12 13.44 13.2 12.74 13.36 12.06C13.56 11.38 13.92 10.36 14.44 9L17.62 0.479997H22.42L20.02 9.66Z" fill="#FF0066"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer style="background-image: url(assets/footer-bg.png);" class="relative bg-no-repeat bg-cover">
+
+        <div class="px-4 pb-10 mx-auto pt-28 lg:pt-40 lg:pb-20 max-w-7xl 2xl:w-1376">
+
+            <div class="items-center justify-between pb-12 border-b border-white md:flex md:pb-20">
+                <div class="pb-6 md:pb-0">
+                    <h1 class="text-2xl font-bold text-white capitalize md:text-3xl font-montserrat">interested in <br> working with us?</h1>
+                    <p class="pt-4 text-base text-white capitalize md:text-lg font-roboto">register now and leave the rest to us</p>
+                </div>
+                <a class="flex items-center justify-center py-3.5 md:py-5 space-x-4 text-white uppercase transition ease-in-out rounded-lg bg-brand-red hover:bg-brand-red/80 sm:w-72 w-full" href="courseReg.html">
+                    <p class="text-lg font-medium font-montserrat">register</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="w-full pt-12 lg:flex lg:pt-20">
+                <div class="w-full lg:w-2/5">
+                    <a href="index.html">
+                        <img src="assets/logo-white.svg" alt="logo">
+                    </a>
+                    <div class="flex items-start pt-10 space-x-5 text-white">
+                        <p class="font-bold font-montserrat">A.</p>
+                        <p class="font-montserrat">30 North Gould Street Ste N, Sheridan, WY 82801</p>
+                    </div>
+                    <div class="flex items-start pt-5 space-x-5 text-white">
+                        <p class="font-bold font-montserrat">T.</p>
+                        <a href="tel:+19419195040" class="font-montserrat">+1 941 919 5040</a>
+                    </div>
+                    <div class="flex items-start pt-5 space-x-5 text-white">
+                        <p class="font-bold font-montserrat">E.</p>
+                        <a href="mailto:bookitdispatch@gmail.com" class="font-montserrat">bookitdispatch@gmail.com</a>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap items-start w-full text-white lg:w-3/5 lg:pl-28 font-montserrat">
+                    <div class="w-1/2 pt-12 space-y-5 sm:w-1/3">
+                        <p class="pb-3 font-semibold uppercase">about us</p>
+                        <a href="index.html" class="block hover:underline">Home</a>
+                        <a href="about.html" class="block hover:underline">About</a>
+                        <a href="services.html" class="block hover:underline">Services</a>
+                        <a href="form1.html" class="block hover:underline">Carrier Setup</a>
+                        <a href="#" class="block hover:underline">Contact Us</a>
+                    </div>
+                    <div class="w-1/2 pt-12 space-y-5 sm:w-1/3">
+                        <p class="pb-3 font-semibold uppercase">follow us</p>
+                        <a href="#" class="block hover:underline">Instagram</a>
+                        <a href="#" class="block hover:underline">Facebook</a>
+                        <a href="#" class="block hover:underline">Telegram</a>
+                        <a href="#" class="block hover:underline">Youtube</a>
+                    </div>
+                    <div class="w-1/2 pt-12 space-y-5 sm:w-1/3">
+                        <p class="pb-3 font-semibold uppercase">I am a ...</p>
+                        <a href="#" class="block hover:underline">Broker</a>
+                        <a href="#" class="block hover:underline">Carrier</a>
+                        <a href="#" class="block hover:underline">Owner Operator</a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="pt-12 text-xs leading-loose text-center text-white md:text-sm md:text-right font-montserrat"><a class="hover:underline" href="#">TERMS AND CONDITIONS</a> | <a class="hover:underline" href="privacyPolicy.html">PRIVACY POLICY</a> &nbsp;&nbsp; © 2021 BOOKIT LLC</p>
+        </div>
+
+        <!-- back to top button -->
+        <div class="absolute z-40 hidden 2xl:block top-1/3 right-5">
+            <button class="flex items-center justify-center w-20 h-20 transition ease-in-out bg-white rounded-full toTopBtn text-brand-dark-blue hover:bg-brand-dark-blue hover:text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+                </svg>
+            </button>
+        </div>
+    </footer>
+
+    <!-- live chat -->
+    <div class="fixed z-50 hidden liveChat bottom-4 right-4">
+        <div class="flex justify-end pb-2">
+            <button class="flex items-center justify-center w-10 h-10 transition ease-in-out bg-white rounded-full closeLiveChat text-brand-red hover:bg-brand-red hover:text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+        <div class="relative overflow-hidden w-[440px] h-[500px] bg-white rounded-2xl box-shadow">
+            <div class="h-full p-8 overflow-y-auto">
+                <div class="flex items-start pb-10 space-x-7">
+                    <p class="px-5 py-4 text-sm rounded-md font-mulish text-brand-black bg-brand-blue-bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis?</p>
+                    <img class="w-12 h-12 -mt-2 border-2 rounded-lg border-brand-dark-blue" src="assets/slider-img.png" alt="">
+                </div>
+                <div class="flex items-start pb-10 space-x-7">
+                    <img class="w-12 h-12 -mt-2 border-2 rounded-lg border-brand-red" src="assets/slider-img.png" alt="">
+                    <p class="px-5 py-4 text-sm rounded-md font-mulish text-brand-black bg-brand-blue-bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis?</p>
+                </div>
+                <div class="flex items-start pb-10 space-x-7">
+                    <p class="px-5 py-4 text-sm rounded-md font-mulish text-brand-black bg-brand-blue-bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis?</p>
+                    <img class="w-12 h-12 -mt-2 border-2 rounded-lg border-brand-dark-blue" src="assets/slider-img.png" alt="">
+                </div>
+                <div class="flex items-start pb-10 space-x-7">
+                    <img class="w-12 h-12 -mt-2 border-2 rounded-lg border-brand-red" src="assets/slider-img.png" alt="">
+                    <p class="px-5 py-4 text-sm rounded-md font-mulish text-brand-black bg-brand-blue-bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis?</p>
+                </div>
+                <div class="flex items-start pb-10 space-x-7">
+                    <p class="px-5 py-4 text-sm rounded-md font-mulish text-brand-black bg-brand-blue-bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis?</p>
+                    <img class="w-12 h-12 -mt-2 border-2 rounded-lg border-brand-dark-blue" src="assets/slider-img.png" alt="">
+                </div>
+                <div class="flex items-start pb-10 space-x-7">
+                    <img class="w-12 h-12 -mt-2 border-2 rounded-lg border-brand-red" src="assets/slider-img.png" alt="">
+                    <p class="px-5 py-4 text-sm rounded-md font-mulish text-brand-black bg-brand-blue-bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis?</p>
+                </div>
+            </div>
+
+            <!-- enter & send msg field -->
+            <div class="flex items-center justify-between py-2.5 px-4 linear-gradient-bg w-full rounded-xl absolute bottom-0 left-0 right-0">
+                <button class="w-8 h-8 text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </button>
+                <input class="h-10 px-3 text-sm placeholder-gray-500 border-none rounded-lg w-80 font-mulish focus:outline-none" type="text" name="" id="" placeholder="Type Here...">
+                <button class="flex items-center justify-center w-10 h-10 text-white transition ease-in-out rounded-lg bg-brand-red hover:bg-brand-red/80">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="vendor/owl-carousel/jquery.min.js"></script>
+    <script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+</body>
+</html>

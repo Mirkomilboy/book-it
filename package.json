@@ -1,0 +1,21 @@
+{
+  "name": "book-it",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set TAILWIND_MODE=watch&postcss src/styles.css -o ./public/css/styles.css -w --verbose",
+    "build": "postcss tailwindcss ./src/styles.css -o ./public/css/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.7"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.3.3"
+  }
+}

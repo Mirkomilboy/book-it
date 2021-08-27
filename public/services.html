@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book It | Services</title>
+    <link rel="icon" href="assets/logo.svg">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- font style link -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Mulish:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&family=Zeyada&display=swap" rel="stylesheet">
+
+    <!-- swiper scc link -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/> -->
+
+    <script src="app.js" defer></script>
+</head>
+<body class="bg-brand-blue-bg">
+    <header class="fixed w-full top-0 z-50">
+        <!-- Mobile -->
+        <div class="h-0 overflow-hidden  w-full px-5  text-sm font-medium uppercase transition-height ease-in-out bg-brand-blue-bg mobileMenu font-montserrat text-brand-black">
+            <div class="py-14 space-y-5">
+                <a class="block text-center transition ease-in-out hover:text-brand-red" href="about.html">about</a>
+            <a class="block text-center transition ease-in-out hover:text-brand-red" href="services.html">services</a>
+            <a class="block text-center transition ease-in-out hover:text-brand-red" href="forClients1.html">for clients</a>
+            <a class="block text-center transition ease-in-out hover:text-brand-red" href="about.html">FAQ</a>
+            <a class="block text-center transition ease-in-out hover:text-brand-red" href="academy.html">Academy</a>
+            <div class="text-center">
+                <a class="text-brand-red border-2 border-brand-red rounded-xl py-2.5 px-3 hover:bg-brand-red/10 transition inline-block ease-in-out" href="form1.html">carrier setup</a>
+            </div>
+            </div>
+        </div>
+
+
+        <!-- Desktop -->
+        <div class="nav  items-center justify-between lg:justify-start  w-full px-5 space-x-5 text-sm font-medium uppercase transition ease-in flex h-20 lg:h-28 md:pl-16 lg:pl-36  font-montserrat text-brand-black">
+            <a href="index.html"><img class="w-12" src="assets/logo.svg" alt=""></a>
+
+            <div class="hidden lg:flex items-center lg:space-x-7">
+                <a class="transition ease-in-out hover:text-brand-red" href="about.html">about</a>
+                <a class="transition ease-in-out hover:text-brand-red" href="services.html">services</a>
+                <a class="transition ease-in-out hover:text-brand-red" href="forClients1.html">for clients</a>
+                <a class="transition ease-in-out hover:text-brand-red" href="about.html">FAQ</a>
+                <a class="transition ease-in-out hover:text-brand-red" href="academy.html">Academy</a>
+                <a class="text-brand-red border-2 border-brand-red rounded-xl py-2.5 px-3 hover:bg-brand-red/10 transition ease-in-out" href="form1.html">carrier setup</a>
+            </div>
+
+            <button class="text-white menuBtn lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main class="relative transition-spacing ease-in-out">
+
+        <!-- hero -->
+        <section class="max-w-1376 mx-auto mt-20 lg:mt-32 px-4">
+            <div class="linear-gradient-bg shadow-2xl rounded-2xl lg:py-24 sm:py-20 py-14 text-center">
+                <h1 class="font-montserrat font-bold md:text-6xl text-4xl text-white">Services</h1>
+            </div>
+
+            <!-- slider tab -->
+            <div>
+                <div class="flex items-end pt-24 space-x-3 lg:space-x-10">
+                    <div class="mySwiper2 w-1/3">
+                        <img class="w-full rounded-xl sm:rounded-3xl mb-4 md:mb-0" src="assets/dispatching.png" alt="">
+                    </div>
+                    <div class="mySwiper flex flex-col justify-between w-2/3">
+                        <div class="hidden md:block font-roboto text-brand-black pb-4 lg:py-10">
+                            <p class="font-bold text-xl">Dispatching</p>
+                            <p class="text-lg pt-2.5 capitalize">Our office works 24/7 to proactively provide honest <br> updates on the behalf of carriers</p>
+                        </div>
+
+                        <div class="flex items-center space-x-3 lg:space-x-10">
+                            <div class="w-56 relative">
+                                <div class="relative">
+                                    <img class="relative z-0 rounded-xl sm:rounded-3xl" src="assets/accounting.png" alt="">
+                                    <div class="absolute inset-0 rounded-xl sm:rounded-3xl w-full h-full bg-gray-900/40"></div>
+                                </div>
+                                <p class="relative md:absolute z-10 md:bottom-6 md:left-1/4 font-roboto font-bold text-xs xl:text-xl text-brand-black md:text-white text-center">Accounting</p>
+                            </div>
+                            <div class="w-56 relative">
+                                <div class="relative">
+                                    <img class="relative z-0 rounded-xl sm:rounded-3xl" src="assets/paprework.png" alt="">
+                                    <div class="absolute inset-0 rounded-xl sm:rounded-3xl w-full h-full bg-gray-900/40"></div>
+                                </div>
+                                <p class="relative md:absolute z-10 md:bottom-6 md:left-1/4 font-roboto font-bold text-xs xl:text-xl text-brand-black md:text-white text-center">Paperwork</p>
+                            </div>
+                            <div class="w-56 relative">
+                                <div class="relative">
+                                    <img class="relative z-0 rounded-xl sm:rounded-3xl" src="assets/ELD-support.png" alt="">
+                                    <div class="absolute inset-0 rounded-xl sm:rounded-3xl w-full h-full bg-gray-900/40"></div>
+                                </div>
+                                <p class="relative md:absolute z-10 md:bottom-6 md:left-1/4 font-roboto font-bold text-xs xl:text-xl text-brand-black md:text-white text-center">ELD Support</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:hidden font-roboto text-brand-black pt-3">
+                    <p class="font-bold text-xl">Dispatching</p>
+                    <p class="text-lg pt-2.5 capitalize">Our office works 24/7 to proactively provide honest <br> updates on the behalf of carriers</p>
+                </div>
+            </div>
+        </section>
+
+        <div>
+            <!-- let's talk sticky button -->
+            <button class="letsTalk sticky top-80 z-40 float-right flex items-center justify-end space-x-2.5 border-4 rounded-full border-brand-red text-brand-red lg:transform -rotate-90 lg:py-5 lg:px-8 p-4 bg-white hover:bg-brand-red/10 transition ease-in-out">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.0037 6.23522e-07C9.09529 -0.000641851 7.21955 0.495228 5.56078 1.43889C3.902 2.38255 2.51728 3.74153 1.54265 5.3823C0.568027 7.02307 0.0370419 8.88918 0.00186884 10.7973C-0.0333042 12.7053 0.428545 14.5898 1.34204 16.2653L0.0403702 20.8303C-0.00543146 20.9906 -0.00665168 21.1604 0.0368411 21.3213C0.0803338 21.4823 0.166893 21.6283 0.287201 21.7437C0.40751 21.8591 0.557014 21.9395 0.719621 21.9763C0.882229 22.013 1.05178 22.0048 1.21004 21.9523L5.49637 20.5242C6.95728 21.3684 8.59281 21.8652 10.2764 21.9762C11.9601 22.0872 13.6467 21.8094 15.2058 21.1642C16.7649 20.5191 18.1546 19.524 19.2676 18.2558C20.3806 16.9877 21.1869 15.4805 21.6242 13.8508C22.0615 12.2212 22.118 10.5128 21.7894 8.85781C21.4608 7.20283 20.7559 5.64562 19.7292 4.30665C18.7025 2.96768 17.3816 1.88284 15.8686 1.13606C14.3555 0.389274 12.691 0.000564574 11.0037 6.23522e-07ZM7.33704 9.16667C7.33704 8.92355 7.43361 8.69039 7.60552 8.51849C7.77743 8.34658 8.01059 8.25 8.2537 8.25H13.7537C13.9968 8.25 14.23 8.34658 14.4019 8.51849C14.5738 8.69039 14.6704 8.92355 14.6704 9.16667C14.6704 9.40978 14.5738 9.64294 14.4019 9.81485C14.23 9.98676 13.9968 10.0833 13.7537 10.0833H8.2537C8.01059 10.0833 7.77743 9.98676 7.60552 9.81485C7.43361 9.64294 7.33704 9.40978 7.33704 9.16667ZM8.2537 11.9167H11.9204C12.1635 11.9167 12.3966 12.0132 12.5686 12.1852C12.7405 12.3571 12.837 12.5902 12.837 12.8333C12.837 13.0764 12.7405 13.3096 12.5686 13.4815C12.3966 13.6534 12.1635 13.75 11.9204 13.75H8.2537C8.01059 13.75 7.77743 13.6534 7.60552 13.4815C7.43361 13.3096 7.33704 13.0764 7.33704 12.8333C7.33704 12.5902 7.43361 12.3571 7.60552 12.1852C7.77743 12.0132 8.01059 11.9167 8.2537 11.9167Z" fill="url(#paint0_linear)"/>
+                    <defs>
+                    <linearGradient id="paint0_linear" x1="-2.66065" y1="6.13083e-07" x2="23.8649" y2="1.67809" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FF0066"/>
+                    <stop offset="1" stop-color="#FF1585"/>
+                    </linearGradient>
+                    </defs>
+                </svg>
+                <p class="hidden font-semibold font-montserrat lg:block">Let's Talk</p>
+            </button>
+
+            <!-- pricing -->
+            <section class="max-w-1376 mx-auto px-4 sm:px-24">
+
+                <h1 class="font-montserrat font-bold text-3xl text-center text-brand-black pt-28 pb-24">Pricing</h1>
+
+                <!-- cards -->
+                <div class="flex flex-col xl:flex-row items-center justify-center font-montserrat space-y-14 xl:space-y-0 pb-32">
+                    <!-- card 1 -->
+                    <div class="relative max-w-sm xl:w-[32%] box-shadow-wide text-brand-black rounded-l-2xl rounded-r-2xl xl:rounded-r-none bg-white pt-28 pb-12 px-8">
+                        <div class="space-y-5">
+                            <h1 class="font-semibold text-center text-3xl">Pay To Go</h1>
+
+                            <div class="flex items-start space-x-5">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <p class="capitalize text-lg">we obtain highest paid loads</p>
+                            </div>
+
+                            <div class="flex items-start space-x-5">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <p class="capitalize text-lg">we run credit on all brokers and shippers</p>
+                            </div>
+
+                            <div class="flex items-start space-x-5">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <p class="capitalize text-lg">all necessary paperwork</p>
+                            </div>
+
+                            <div class="flex items-start space-x-5">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <p class="capitalize text-lg">24/7 dispatching</p>
+                            </div>
+
+                            <div class="flex items-start space-x-5">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <p class="capitalize text-lg">monitoring your whole trip</p>
+                            </div>
+                        </div>
+
+                        <!-- percentage absolute -->
+                        <div class="absolute top-0 left-11 w-20 h-24 rounded-b-lg bg-brand-darkest-blue flex items-center justify-center">
+                            <p class="font-montserrat text-white"><span class="font-semibold text-4xl">3</span>%</p>
+                        </div>
+                    </div>
+
+                    <!-- card 2 -->
+                    <div class="relative max-w-sm xl:w-[36%] box-shadow-wide text-brand-black rounded-2xl bg-white overflow-hidden pt-36 pb-32 px-8">
+                        <div class="space-y-5">
+                            <h1 class="font-semibold text-center text-3xl">Dispatch Pro</h1>
+
+                            <div class="flex items-start space-x-5">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <p class="capitalize text-lg">Includes all “Pay to Go”</p>
+                            </div>
+
+                            <div class="flex items-start space-x-5">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <p class="capitalize text-lg">Providing all Rate Confirmations</p>
+                            </div>
+
+                            <div class="flex items-start space-x-5">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <p class="capitalize text-lg">Book keeping</p>
+                            </div>
+
+                            <div class="flex items-start space-x-5">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <p class="capitalize text-lg"> 24/7 ELD assistance</p>
+                            </div>
+
+                            <div class="flex items-start space-x-5">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <p class="capitalize text-lg">Weekly Data Reports</p>
+                            </div>
+                        </div>
+
+                        <!-- percentage absolute -->
+                        <div class="absolute top-0 left-11 w-20 h-24 rounded-b-lg bg-brand-darkest-blue flex items-center justify-center">
+                            <p class="font-montserrat text-white"><span class="font-semibold text-4xl">5</span>%</p>
+                        </div>
+
+                        <!-- popular badge -->
+                        <p class="absolute top-2.5 -right-6 font-montserrat text-sm text-brand-red bg-yellow-300 py-1 px-5 rotate-45">popular</p>
+                    </div>
+
+                    <!-- card 3 -->
+                    <div class="relative max-w-sm xl:w-[32%] box-shadow-wide text-white rounded-r-2xl rounded-l-2xl xl:rounded-l-none linear-gradient-bg pt-28 pb-36 px-8">
+                        <div class="space-y-5">
+                            <h1 class="font-semibold text-center text-3xl">VIP</h1>
+
+                            <div class="flex items-start space-x-5">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <p class="capitalize text-lg">Includes all “Pay to go”</p>
+                            </div>
+
+                            <div class="flex items-start space-x-5">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <p class="capitalize text-lg">includes all “Dispatch Pro”</p>
+                            </div>
+
+                            <div class="flex items-start space-x-5">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <p class="capitalize text-lg">Managing whole procces</p>
+                            </div>
+
+                            <div class="flex items-start space-x-5">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <p class="capitalize text-lg">you just drive</p>
+                            </div>
+                        </div>
+
+                        <!-- percentage absolute -->
+                        <div class="absolute top-0 left-11 w-20 h-24 rounded-b-lg bg-brand-red flex items-center justify-center">
+                            <p class="font-montserrat text-white"><span class="font-semibold text-4xl">8</span>%</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <footer style="background-image: url(assets/footer-bg.png);" class="relative bg-no-repeat bg-cover">
+
+        <div class="px-4 pb-10 mx-auto pt-28 lg:pt-40 lg:pb-20 max-w-1376">
+
+            <div class="items-center justify-between pb-12 border-b border-white md:flex md:pb-20">
+                <div class="pb-6 md:pb-0">
+                    <h1 class="text-2xl font-bold text-white capitalize md:text-3xl font-montserrat">interested in <br> working with us?</h1>
+                    <p class="pt-4 text-base text-white capitalize md:text-lg font-roboto">register now and leave the rest to us</p>
+                </div>
+                <a class="flex items-center justify-center py-3.5 md:py-5 space-x-4 text-white uppercase transition ease-in-out rounded-lg bg-brand-red hover:bg-brand-red/80 sm:w-72 w-full" href="courseReg.html">
+                    <p class="text-lg font-medium font-montserrat">register</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="w-full pt-12 lg:flex lg:pt-20">
+                <div class="w-full lg:w-2/5">
+                    <a href="index.html">
+                        <img src="assets/logo-white.svg" alt="logo">
+                    </a>
+                    <div class="flex items-start pt-10 space-x-5 text-white">
+                        <p class="font-bold font-montserrat">A.</p>
+                        <p class="font-montserrat">30 North Gould Street Ste N, Sheridan, WY 82801</p>
+                    </div>
+                    <div class="flex items-start pt-5 space-x-5 text-white">
+                        <p class="font-bold font-montserrat">T.</p>
+                        <a href="tel:+19419195040" class="font-montserrat">+1 941 919 5040</a>
+                    </div>
+                    <div class="flex items-start pt-5 space-x-5 text-white">
+                        <p class="font-bold font-montserrat">E.</p>
+                        <a href="mailto:bookitdispatch@gmail.com" class="font-montserrat">bookitdispatch@gmail.com</a>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap items-start w-full text-white lg:w-3/5 lg:pl-28 font-montserrat">
+                    <div class="w-1/2 pt-12 space-y-5 sm:w-1/3">
+                        <p class="pb-3 font-semibold uppercase">about us</p>
+                        <a href="index.html" class="block hover:underline">Home</a>
+                        <a href="about.html" class="block hover:underline">About</a>
+                        <a href="services.html" class="block hover:underline">Services</a>
+                        <a href="form1.html" class="block hover:underline">Carrier Setup</a>
+                        <a href="#" class="block hover:underline">Contact Us</a>
+                    </div>
+                    <div class="w-1/2 pt-12 space-y-5 sm:w-1/3">
+                        <p class="pb-3 font-semibold uppercase">follow us</p>
+                        <a href="#" class="block hover:underline">Instagram</a>
+                        <a href="#" class="block hover:underline">Facebook</a>
+                        <a href="#" class="block hover:underline">Telegram</a>
+                        <a href="#" class="block hover:underline">Youtube</a>
+                    </div>
+                    <div class="w-1/2 pt-12 space-y-5 sm:w-1/3">
+                        <p class="pb-3 font-semibold uppercase">I am a ...</p>
+                        <a href="#" class="block hover:underline">Broker</a>
+                        <a href="#" class="block hover:underline">Carrier</a>
+                        <a href="#" class="block hover:underline">Owner Operator</a>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="pt-12 text-xs leading-loose text-center text-white md:text-sm md:text-right font-montserrat"><a class="hover:underline" href="#">TERMS AND CONDITIONS</a> | <a class="hover:underline" href="privacyPolicy.html">PRIVACY POLICY</a> &nbsp;&nbsp; © 2021 BOOKIT LLC</p>
+        </div>
+
+        <!-- back to top button -->
+        <div class="absolute z-40 hidden 2xl:block top-1/3 right-5">
+            <button class="flex items-center justify-center w-20 h-20 transition ease-in-out bg-white rounded-full toTopBtn text-brand-dark-blue hover:bg-brand-dark-blue hover:text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+                </svg>
+            </button>
+        </div>
+    </footer>
+
+    <!-- live chat -->
+    <div class="fixed z-50 hidden liveChat bottom-4 right-4">
+        <div class="flex justify-end pb-2">
+            <button class="flex items-center justify-center w-10 h-10 transition ease-in-out bg-white rounded-full closeLiveChat text-brand-red hover:bg-brand-red hover:text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+        <div class="relative overflow-hidden w-80 md:w-[440px] h-[500px] bg-white rounded-2xl box-shadow">
+            <div class="h-full p-4 md:p-8 overflow-y-auto">
+                <div class="flex items-start pb-10 space-x-7">
+                    <p class="px-5 py-4 text-sm rounded-md font-mulish text-brand-black bg-brand-blue-bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis?</p>
+                    <img class="w-12 h-12 -mt-2 border-2 rounded-lg border-brand-dark-blue" src="assets/slider-img.png" alt="">
+                </div>
+                <div class="flex items-start pb-10 space-x-7">
+                    <img class="w-12 h-12 -mt-2 border-2 rounded-lg border-brand-red" src="assets/slider-img.png" alt="">
+                    <p class="px-5 py-4 text-sm rounded-md font-mulish text-brand-black bg-brand-blue-bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis?</p>
+                </div>
+                <div class="flex items-start pb-10 space-x-7">
+                    <p class="px-5 py-4 text-sm rounded-md font-mulish text-brand-black bg-brand-blue-bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis?</p>
+                    <img class="w-12 h-12 -mt-2 border-2 rounded-lg border-brand-dark-blue" src="assets/slider-img.png" alt="">
+                </div>
+                <div class="flex items-start pb-10 space-x-7">
+                    <img class="w-12 h-12 -mt-2 border-2 rounded-lg border-brand-red" src="assets/slider-img.png" alt="">
+                    <p class="px-5 py-4 text-sm rounded-md font-mulish text-brand-black bg-brand-blue-bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis?</p>
+                </div>
+                <div class="flex items-start pb-10 space-x-7">
+                    <p class="px-5 py-4 text-sm rounded-md font-mulish text-brand-black bg-brand-blue-bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis?</p>
+                    <img class="w-12 h-12 -mt-2 border-2 rounded-lg border-brand-dark-blue" src="assets/slider-img.png" alt="">
+                </div>
+                <div class="flex items-start pb-10 space-x-7">
+                    <img class="w-12 h-12 -mt-2 border-2 rounded-lg border-brand-red" src="assets/slider-img.png" alt="">
+                    <p class="px-5 py-4 text-sm rounded-md font-mulish text-brand-black bg-brand-blue-bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis?</p>
+                </div>
+            </div>
+
+            <!-- enter & send msg field -->
+            <div class="flex items-center justify-between py-2.5 px-4 linear-gradient-bg w-full rounded-xl absolute bottom-0 left-0 right-0">
+                <button class="w-8 h-8 text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </button>
+                <input class="h-10 px-3 text-sm placeholder-gray-500 border-none rounded-lg w-80 font-mulish focus:outline-none" type="text" name="" id="" placeholder="Type Here...">
+                <button class="flex items-center justify-center w-10 h-10 text-white transition ease-in-out rounded-lg bg-brand-red hover:bg-brand-red/80">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+</body>
+</html>
