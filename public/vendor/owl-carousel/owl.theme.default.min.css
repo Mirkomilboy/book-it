@@ -11,6 +11,11 @@
     width: auto !important;
 }
 
+.owl-stage {
+    display: flex;
+    align-items: center;
+}
+
 .owl-theme .owl-nav {
     background: linear-gradient(to right top, #595C98, #212789);
     width: 160px;
