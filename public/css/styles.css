@@ -717,10 +717,6 @@ video {
 	bottom: 0px;
 	left: 0px;
 }
-.inset-y-0 {
-	top: 0px;
-	bottom: 0px;
-}
 .top-0 {
 	top: 0px;
 }
@@ -822,9 +818,6 @@ video {
 }
 .z-0 {
 	z-index: 0;
-}
-.z-30 {
-	z-index: 30;
 }
 .col-span-2 {
 	grid-column: span 2 / span 2;
@@ -1178,11 +1171,6 @@ video {
 }
 .list-decimal {
 	list-style-type: decimal;
-}
-.appearance-none {
-	-webkit-appearance: none;
-	   -moz-appearance: none;
-	        appearance: none;
 }
 .grid-cols-5 {
 	grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -1652,9 +1640,6 @@ video {
 .pt-8 {
 	padding-top: 2rem;
 }
-.pl-10 {
-	padding-left: 2.5rem;
-}
 .pb-14 {
 	padding-bottom: 3.5rem;
 }
@@ -1988,6 +1973,10 @@ ol.how-we-work li::before {
 	outline-offset: 2px;
 }
 
+.group:hover .group-hover\:block {
+	display: block;
+}
+
 .group:hover .group-hover\:translate-x-3 {
 	--tw-translate-x: 0.75rem;
 	transform: var(--tw-transform);
@@ -2045,6 +2034,10 @@ ol.how-we-work li::before {
 		margin-top: 8rem;
 	}
 
+	.sm\:mt-14 {
+		margin-top: 3.5rem;
+	}
+
 	.sm\:mt-44 {
 		margin-top: 11rem;
 	}
@@ -2055,10 +2048,6 @@ ol.how-we-work li::before {
 
 	.sm\:mt-11 {
 		margin-top: 2.75rem;
-	}
-
-	.sm\:mt-14 {
-		margin-top: 3.5rem;
 	}
 
 	.sm\:block {
@@ -2177,6 +2166,10 @@ ol.how-we-work li::before {
 
 	.sm\:rounded-3xl {
 		border-radius: 1.5rem;
+	}
+
+	.sm\:p-28 {
+		padding: 7rem;
 	}
 
 	.sm\:p-20 {
@@ -2456,6 +2449,10 @@ ol.how-we-work li::before {
 
 	.md\:p-10 {
 		padding: 2.5rem;
+	}
+
+	.md\:p-28 {
+		padding: 7rem;
 	}
 
 	.md\:px-40 {

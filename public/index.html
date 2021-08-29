@@ -63,21 +63,21 @@
                 <h1 class="text-3xl font-bold md:text-6xl font-montserrat text-brand-black lg:pt-36">Independent <br> Truck <br> Dispatching</h1>
                 <p class="py-10 text-base capitalize lg:max-w-md md:text-xl text-brand-black font-roboto">Our primary goal is to prepare professional staff members to assume leadership positions in logistics companies, private dispatch agencies, and voluntary organizations.</p>
                 <!-- hero select -->
-                <div class="relative inline-block">
+                <div class="group relative inline-block">
                     <div class="relative">
-                        <select class="relative z-10 w-64 h-16 pl-10 text-center text-white border-none rounded-lg bg-brand-red font-montserrat focus:outline-none appearance-none" name="" id="">
-                            <option class="bg-white text-brand-red" value="">I Am A...</option>
-                            <option class="bg-white text-brand-red" value="">Broker</option>
-                            <option class="bg-white text-brand-red" value="">Carrier</option>
-                            <option class="bg-white text-brand-red" value="">Owner Operator</option>
-                        </select>
-                        <div class="absolute inset-y-0 z-30 flex items-center px-2 text-white pointer-events-none right-4">
+                        <div class="relative z-10 flex items-center justify-between w-64 h-16 px-6 text-center text-white border-none rounded-lg bg-brand-red font-montserrat" href="courseReg.html">
+                            <p>I Am A...</p>
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                             </svg>
                         </div>
+                        <div class="absolute z-0 w-64 h-16 border-2 rounded-lg top-2.5 left-2.5 bg-none border-brand-red"></div>
                     </div>
-                    <div class="absolute z-0 w-64 h-16 border-2 rounded-lg top-2.5 left-2.5 bg-none border-brand-red"></div>
+                    <div class="hidden group-hover:block relative z-10 bg-white rounded-lg border-2 border-brand-red">
+                        <a class="block py-3 px-6 hover:bg-brand-red/10" href="forClients1.html#brokers">Broker</a>
+                        <a class="block py-3 px-6 hover:bg-brand-red/10" href="forClients1.html#carriers">Carrier</a>
+                        <a class="block py-3 px-6 hover:bg-brand-red/10" href="forClients1.html#operators">Operator</a>
+                    </div>
                 </div>
             </div>
             <img class="absolute right-0 hidden w-1/2 lg:block -top-16" src="assets/hero-img.png" alt="">
