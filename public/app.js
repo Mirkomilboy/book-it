@@ -77,21 +77,27 @@ const next1 = document.querySelector('.next1');
 const next2 = document.querySelector('.next2');
 const next3 = document.querySelector('.next3');
 
-next1.addEventListener('click', function() {
-  form1.classList.toggle('hidden');
-  form2.classList.toggle('hidden');
-  console.log('clicked');
-})
+if(next1) {
+  next1.addEventListener('click', function() {
+    form1.classList.toggle('hidden');
+    form2.classList.toggle('hidden');
+    console.log('clicked');
+  })
+}
 
-next2.addEventListener('click', function() {
-  form2.classList.toggle('hidden');
-  form3.classList.toggle('hidden');
-})
+if(next2) {
+  next2.addEventListener('click', function() {
+    form2.classList.toggle('hidden');
+    form3.classList.toggle('hidden');
+  })
+}
 
-next3.addEventListener('click', function() {
-  form3.classList.toggle('hidden');
-  form4.classList.toggle('hidden');
-})
+if(next3) {
+  next3.addEventListener('click', function() {
+    form3.classList.toggle('hidden');
+    form4.classList.toggle('hidden');
+  })
+}
 
 
 
