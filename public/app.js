@@ -3,15 +3,19 @@ const letsTalk = document.querySelector(".letsTalk");
 const liveChat = document.querySelector(".liveChat");
 const closeLiveChat = document.querySelector(".closeLiveChat");
 
-letsTalk.addEventListener('click', function() {
-  liveChat.classList.toggle('hidden');
-  letsTalk.classList.toggle('hidden');
-})
+if(letsTalk) {
+  letsTalk.addEventListener('click', function() {
+    liveChat.classList.toggle('hidden');
+    letsTalk.classList.toggle('hidden');
+  });
+}
 
-closeLiveChat.addEventListener('click', function() {
-  liveChat.classList.toggle('hidden');
-  letsTalk.classList.toggle('hidden');
-});
+if(closeLiveChat) {
+  closeLiveChat.addEventListener('click', function() {
+    liveChat.classList.toggle('hidden');
+    letsTalk.classList.toggle('hidden');
+  });
+}
 
 // =============== menu function on mobile ===============
 const mobileMenu = document.querySelector('.mobileMenu');
@@ -19,10 +23,12 @@ const menuBtn = document.querySelector('.menuBtn');
 const closeBtn = document.querySelector('.closeBtn');
 const mainLayout = document.querySelector('main');
 
-menuBtn.addEventListener('click', e => {
-  mobileMenu.classList.toggle('!h-96')
-  mainLayout.classList.toggle('pt-96')
-});
+if(menuBtn) {
+  menuBtn.addEventListener('click', e => {
+    mobileMenu.classList.toggle('!h-96')
+    mainLayout.classList.toggle('pt-96')
+  });
+}
 
 
 // =============== changing bg of nav on scroll ===============
@@ -46,27 +52,58 @@ const tabs = document.querySelectorAll('[data-tab-target]')
 const tabContents = document.querySelectorAll('[data-tab-content]')
 
 tabs.forEach(tab => {
-  tab.addEventListener('click', () => {
-    const target = document.querySelector(tab.dataset.tabTarget)
-    tabContents.forEach(tabContent => {
-      tabContent.classList.remove('active')
-    })
-    tabs.forEach(tab => {
-      tab.classList.remove('active')
-    })
-    tab.classList.add('active')
-    target.classList.add('active')
-  });
+  if(tab) {
+    tab.addEventListener('click', () => {
+      const target = document.querySelector(tab.dataset.tabTarget)
+      tabContents.forEach(tabContent => {
+        tabContent.classList.remove('active')
+      })
+      tabs.forEach(tab => {
+        tab.classList.remove('active')
+      })
+      tab.classList.add('active')
+      target.classList.add('active')
+    });
+  }
 });
+
+// =============== back to bop link ===============
+const form1 = document.querySelector('.form1');
+const form2 = document.querySelector('.form2');
+const form3 = document.querySelector('.form3');
+const form4 = document.querySelector('.form4');
+
+const next1 = document.querySelector('.next1');
+const next2 = document.querySelector('.next2');
+const next3 = document.querySelector('.next3');
+
+next1.addEventListener('click', function() {
+  form1.classList.toggle('hidden');
+  form2.classList.toggle('hidden');
+  console.log('clicked');
+})
+
+next2.addEventListener('click', function() {
+  form2.classList.toggle('hidden');
+  form3.classList.toggle('hidden');
+})
+
+next3.addEventListener('click', function() {
+  form3.classList.toggle('hidden');
+  form4.classList.toggle('hidden');
+})
+
 
 
 // =============== back to bop link ===============
 const toTopBtn = document.querySelector(".toTopBtn");
 
-toTopBtn.addEventListener('click', function() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-});
+if(toTopBtn) {
+  toTopBtn.addEventListener('click', function() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  });
+}
 
 
 // =============== owl carousel ===============

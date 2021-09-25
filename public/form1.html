@@ -59,7 +59,8 @@
                         </div>
 
                         <!-- right side (2nd) -->
-                        <div class="relative bg-white w-full md:w-3/5 font-semibold shadow-2xl rounded-xl p-5 mt-20 md:mt-0">
+                        <!-- FORM 1 -->
+                        <div class="form1 relative bg-white w-full md:w-3/5 font-semibold shadow-2xl rounded-xl p-5 mt-20 md:mt-0">
 
                             <div class="absolute -top-16 left-1/2">
                                 <div class="relative -left-1/2 bg-white rounded-full shadow-lg  mr-6 w-28 md:w-36 h-28 md:h-36 flex items-center justify-center">
@@ -104,10 +105,210 @@
                                 </div>
 
                                 <div class="text-center pb-5">
-                                    <button class="text-white text-lg sm:w-auto w-full linear-gradient-btn rounded-xl font-semibold px-14 sm:py-6 py-5">
+                                    <button class="next1 text-white text-lg sm:w-auto w-full linear-gradient-btn rounded-xl font-semibold px-14 sm:py-6 py-5">
                                         NEXT
                                     </button>
                                 </div>
+                            </div>
+                        </div>
+
+                        <!-- FORM 2 -->
+                        <div class="form2 hidden relative bg-white w-full md:w-3/5 font-semibold shadow-2xl rounded-xl lg:p-10 p-5 mt-20 md:mt-0">
+
+                            <div class="absolute -top-16 left-1/2">
+                                <div class="relative -left-1/2 bg-white rounded-full shadow-lg  mr-6 w-28 md:w-36 h-28 md:h-36 flex items-center justify-center">
+                                    <img src="assets/icon-note.svg" alt="">
+                                </div>
+                            </div>
+
+                            <div class="text-right">
+                                <a class="text-gray-400 text-lg" href="#">Cancel</a>
+                            </div>
+
+                            <div class="font-montserrat sm:mt-11 mt-8 lg:px-16">
+                                <h3 class="uppercase sm:text-center sm:text-2xl text-xl">company details</h3>
+
+                                <form class="sm:text-xl sm:mt-16 mt-7 sm:space-y-5 space-y-3" action="">
+                                    <div class="sm:space-y-3 space-y-2">
+                                        <label for="fname">Company Name*</label>
+                                        <input class="sm:h-20 h-16 w-full border-2 rounded-lg px-5" type="text" required>
+                                    </div>
+
+                                    <div class="sm:space-y-3 space-y-2">
+                                        <label for="fname">Doing Business As</label>
+                                        <input class="sm:h-20 h-16 w-full border-2 rounded-lg px-5" type="text">
+                                    </div>
+
+                                    <div class="sm:space-y-3 space-y-2">
+                                        <label for="Adress">Adress*</label>
+                                        <input class="sm:h-20 h-16 w-full border-2 rounded-lg px-5" type="text" required>
+                                    </div>
+
+                                    <div class="sm:space-y-3 space-y-2">
+                                        <label for="MC Number">MC Number*</label>
+                                        <input class="sm:h-20 h-16 w-full border-2 rounded-lg px-5" type="text" required>
+                                    </div>
+
+                                    <div class="sm:space-y-3 space-y-2">
+                                        <label for="DOT">DOT*</label>
+                                        <input class="sm:h-20 h-16 w-full border-2 rounded-lg px-5" type="text" required>
+                                    </div>
+
+                                    <div class="sm:space-y-3 space-y-2">
+                                        <label for="InterstatePermit">Interstate Permit</label>
+                                        <input class="sm:h-20 h-16 w-full border-2 rounded-lg px-5" type="text">
+                                    </div>
+
+                                    <div class="sm:space-y-3 space-y-2">
+                                        <label for="IEM">IEM*</label>
+                                        <input class="sm:h-20 h-16 w-full border-2 rounded-lg px-5" type="text" required>
+                                    </div>
+
+                                    <div class="sm:space-y-3 space-y-2">
+                                        <label for="W9">W9*</label>
+                                        <input class="sm:h-20 h-16 w-full border-2 rounded-lg px-5" type="text" required>
+                                    </div>
+
+                                    <div class="sm:space-y-3 space-y-2">
+                                        <label for="SSN">SSN</label>
+                                        <input class="sm:h-20 h-16 w-full border-2 rounded-lg px-5" type="text">
+                                    </div>
+
+                                    <div class="flex lg:space-x-10 md:space-x-8 space-x-3">
+                                        <div class="sm:space-y-3 space-y-2 w-1/2">
+                                            <label for="numberOfDrivers">Number of Drivers*</label>
+                                            <input class="sm:h-20 h-16 w-full border-2 rounded-lg px-5" type="text" required>
+                                        </div>
+
+                                        <div class="sm:space-y-3 space-y-2 w-1/2">
+                                            <label for="numberOfTrucks">Number of Trucks*</label>
+                                            <input class="sm:h-20 h-16 w-full border-2 rounded-lg px-5" type="text" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="sm:space-y-3 space-y-2">
+                                        <label for="numberOfTrucks">Type of Equipment*</label>
+                                        <select class="sm:h-20 h-16 w-full border-2 border-gray-200 form-select rounded-lg sm:text-lg px-5" name="Type of Equipment*" id="">
+                                            <option value="">Power Only</option>
+                                            <option value="">Flatbet</option>
+                                            <option value="">Dry Van</option>
+                                            <option value="">Reefer</option>
+                                        </select>
+                                    </div>
+                                </form>
+
+                                <div class="flex items-center justify-center space-x-5 sm:my-8 my-5">
+                                    <p class="text-xl text-gray-400">1</p>
+                                    <p class="text-4xl">2</p>
+                                    <p class="text-xl text-gray-400">3</p>
+                                    <p class="text-xl text-gray-400">4</p>
+                                </div>
+
+                                <div class="text-center pb-5">
+                                    <button class="next2 text-white sm:w-auto w-full linear-gradient-btn rounded-xl font-semibold px-14 sm:py-6 py-5">
+                                        NEXT
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FORM 3 -->
+                        <div class="form3 hidden relative bg-white w-full md:w-3/5 font-semibold shadow-2xl rounded-xl lg:p-10 p-5 mt-20 md:mt-0">
+
+                            <div class="absolute -top-16 left-1/2">
+                                <div class="relative -left-1/2 bg-white rounded-full shadow-lg  mr-6 w-28 md:w-36 h-28 md:h-36 flex items-center justify-center">
+                                    <img src="assets/icon-insurance.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="text-right">
+                                <a class="text-gray-400 text-lg" href="#">Cancel</a>
+                            </div>
+
+                            <div class="font-montserrat sm:mt-11 mt-8 lg:px-16">
+                                <h3 class="uppercase sm:text-center sm:text-2xl text-xl">insurance details</h3>
+
+                                <form class="sm:text-xl sm:mt-16 mt-7 sm:space-y-5 space-y-3" action="">
+                                    <div class="sm:space-y-3 space-y-2">
+                                        <label for="fname">Company Name*</label>
+                                        <input class="sm:h-20 h-16 w-full border-2 rounded-lg px-5" type="text" required>
+                                    </div>
+
+                                    <div class="sm:space-y-3 space-y-2">
+                                        <label for="Adress">Contact Name*</label>
+                                        <input class="sm:h-20 h-16 w-full border-2 rounded-lg px-5" type="text" required>
+                                    </div>
+
+                                    <div class="sm:space-y-3 space-y-2">
+                                        <label for="MC Number">Phone Number*</label>
+                                        <input class="sm:h-20 h-16 w-full border-2 rounded-lg px-5" type="text" required>
+                                    </div>
+                                </form>
+
+                                <div class="flex items-center justify-center space-x-5 sm:my-8 my-5">
+                                    <p class="text-xl text-gray-400">1</p>
+                                    <p class="text-xl text-gray-400">2</p>
+                                    <p class="text-4xl">3</p>
+                                    <p class="text-xl text-gray-400">4</p>
+                                </div>
+
+                                <div class="text-center pb-5">
+                                    <button class="next3 text-white sm:w-auto w-full linear-gradient-btn rounded-xl font-semibold px-14 sm:py-6 py-5">
+                                        NEXT
+                                    </button>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <!-- FORM 4 -->
+                        <div class="form4 hidden relative bg-white w-full md:w-3/5 font-semibold shadow-2xl rounded-xl lg:p-10 p-5 mt-20 md:mt-0">
+
+                            <div class="absolute -top-16 left-1/2">
+                                <div class="relative -left-1/2 bg-white rounded-full shadow-lg  mr-6 w-28 md:w-36 h-28 md:h-36 flex items-center justify-center">
+                                    <img src="assets/icon-notetick.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="text-right">
+                                <a class="text-gray-400 text-lg" href="#">Cancel</a>
+                            </div>
+
+                            <div class="font-montserrat sm:mt-11 mt-8 lg:px-16">
+                                <h3 class="uppercase sm:text-center sm:text-2xl text-xl">factoring company</h3>
+
+                                <form class="sm:text-xl sm:mt-16 mt-7 sm:space-y-5 space-y-3" action="">
+                                    <div class="sm:space-y-3 space-y-2">
+                                        <label for="fname">Company Name*</label>
+                                        <input class="sm:h-20 h-16 w-full border-2 rounded-lg px-5" type="text" required>
+                                    </div>
+
+                                    <div class="sm:space-y-3 space-y-2">
+                                        <label for="Adress">Contact Name*</label>
+                                        <input class="sm:h-20 h-16 w-full border-2 rounded-lg px-5" type="text" required>
+                                    </div>
+
+                                    <div class="sm:space-y-3 space-y-2">
+                                        <label for="MC Number">Phone Number*</label>
+                                        <input class="sm:h-20 h-16 w-full border-2 rounded-lg px-5" type="text" required>
+                                    </div>
+
+                                <div class="flex items-center justify-center space-x-5 sm:my-8 my-5">
+                                    <p class="text-xl text-gray-400">1</p>
+                                    <p class="text-xl text-gray-400">2</p>
+                                    <p class="text-xl text-gray-400">3</p>
+                                    <p class="text-4xl">4</p>
+                                </div>
+
+                                <div class="text-center pb-5">
+                                    <button class="group sm:w-auto w-full text-white inline-flex justify-center items-center uppercase linear-gradient-btn text-lg rounded-xl font-semibold px-14 sm:py-6 py-5" type="submit">
+                                        submit
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="transform transition-all ease-in-out group-hover:translate-x-3 h-6 w-6 ml-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </form>
                             </div>
                         </div>
                     </div>
