@@ -67,7 +67,7 @@ tabs.forEach(tab => {
   }
 });
 
-// =============== back to bop link ===============
+// =============== form ===============
 const form1 = document.querySelector('.form1');
 const form2 = document.querySelector('.form2');
 const form3 = document.querySelector('.form3');
@@ -98,6 +98,29 @@ if(next3) {
     form4.classList.toggle('hidden');
   })
 }
+
+// =============== services page tab ===============
+
+const slides = document.querySelectorAll('[data-slide-target]')
+const slideContents = document.querySelectorAll('[data-slide-content]')
+
+slides.forEach(slide => {
+  if(slide) {
+    slide.addEventListener('click', () => {
+      const target = document.querySelector(slide.dataset.slideTarget)
+      slideContents.forEach(slideContent => {
+        slideContent.classList.remove('active')
+      })
+      slides.forEach(slide => {
+        slide.classList.remove('active')
+      })
+      slide.classList.add('active')
+      target.classList.add('active')
+    });
+  }
+});
+
+
 
 
 
@@ -217,7 +240,6 @@ var openmodal = document.querySelectorAll('.modal-open')
     	toggleModal()
       }
     };
-
 
     function toggleModal () {
       const body = document.querySelector('body')

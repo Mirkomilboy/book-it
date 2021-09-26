@@ -59,3 +59,17 @@ ol.how-we-work li::before {
     background-color: #fff;
     color: #232D32;
 }
+
+/* services page tab css */
+[data-slide-content] {
+    display: none;
+}
+
+.active[data-slide-content] {
+    display: block;
+}
+
+.slide.active {
+    /* background-color: #fff; */
+    /* color: #232D32; */
+}
